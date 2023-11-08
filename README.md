@@ -1,4 +1,4 @@
-# IS118 - 003 Final Project
+# IS218 - 003 Final Project
 
 # Class Signup Sheet
 
@@ -10,7 +10,7 @@ Note: Class will not meet on November 22nd and November 24th due to Thanksgiving
 
 | Date        | Valerie      | Julia      |
 |-------------|-------------|-------------|
-| Nov 8 (Wed)  |             |             |
+| Nov 8 (Wed)  |      X       |             |
 | Nov 10 (Fri) |             |             |
 | Nov 15 (Wed) |             |             |
 | Nov 17 (Fri) |             |             |
