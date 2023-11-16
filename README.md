@@ -10,5 +10,7 @@
 
 **[Customer Journey/Sales Funnel](Customer_Journey.md)**
 
+**[User Stories](User_Stories.md)**
+
 
 
