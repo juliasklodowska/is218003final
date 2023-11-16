@@ -2,6 +2,8 @@
 
 **[Sign-in Sheet](SIGNIN.md)**
 
+**[Competitive Analysis](Competitive_Analysis.md)**
+
 
 
 
