@@ -6,5 +6,7 @@
 
 **[SWOT Analysis](SWOT_Analysis.md)**
 
+**[Persona](Persona.md)**
+
 
 
