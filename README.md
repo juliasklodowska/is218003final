@@ -8,5 +8,7 @@
 
 **[Persona](Persona.md)**
 
+**[Customer Journey/Sales Funnel](Customer_Journey.md)**
+
 
 
