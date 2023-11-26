@@ -57,7 +57,7 @@ Emma looks at the call to action
 
 **Action**
 
-She sees a button that allows her to look at the menu and order: "Order Now", and another button that allows her to sign up to the website: "Join Our Community"
+She sees a button that allows her to look at the menu and order: "See Menu", and another button that allows her to sign up to the website: "Join Our Community"
 
 **Result**
 
@@ -123,6 +123,110 @@ She sees it stating: Located in "  " on the left and the hours on the right: "We
 **Result**
 
 Not Applicable Informational Text
+
+## Action Epic
+
+### User Story 1
+
+Emma sees the buttons to the call to action and is interested in "See Menu"
+
+**Action**
+
+She clicks on See Menu and sees the speciality drinks (stated previously) offered with their prices. There is also another section that allows her too see all the regular drinks written down with the milk and hot / iced options more clearly. 
+
+**Result**
+
+She sees the speciality drinks and the regular drink options offered at the cafe. 
+
+### User Story 2
+
+Emma sees the buttons to the call to action and is interested in "Join Our Community"
+
+**Action**
+
+She clicks on the button
+
+**Result**
+
+She is brought to a section that allows her to enter her email address, name, and phone number. This section also states: "Join Our Community by signing up to our rewards and have a week to get a free coffee! Members also get a free drink every 10 visits and 50% off if recommended on social media."
+
+### User Story 2
+
+She goes to enter credentials.
+
+**Action**
+
+She enters her name, email addres, and phone number and clicks submit. 
+
+**Result**
+
+She gets a "Thank you for becoming a part of our family!" and receives an email with a barcode to scan when she goes to redeem her free coffee.
+
+### User Story 3
+
+Emma sees the section about learning more about the community and sees the button. 
+
+**Action**
+
+She clicks on the button stating "Learn More".  
+
+**Result**
+
+She is brought to the community page. On the page titled: "Giving Back to the Community" there is a description stating: "At Cottage Comfort Café, our heart beats with the rhythm of the community. That's why we dedicate one day each month to host a special community event—'Caring Cup Day.' On this day, we come together for a cause, be it a charity fundraiser, a donation drive, or a community service project. It's our way of giving back, fostering bonds, and pouring a little love into the place we call home. Join us in making a difference—one cup, one cause, one community at a time." Then there is another section stating "Events": "Food drives are one of the main events hosted, where we make our own food and drinks and donate them to local homeless shelters and struggling families. We encourage members of our community to also bring their own food / drinks to these events, and sign ups can be done in-store or by pressing this button: "Lend a Hand". Together, we can create waves of positive impact, nourishing not just bodies, but hearts and souls in our community. Be a part of this journey of care and compassion – your involvement can make a real difference." There is also a picture next to this event. The other event states: "Each season, we also host a special day dedicated to planting community gardens, using our very own coffee grounds as a natural fertilizer to enrich the soil. This event is a unique opportunity for coffee lovers and green thumbs alike to come together and contribute to a sustainable, beautiful green space in our neighborhood. We invite you to roll up your sleeves and join us in sowing seeds of growth and connection. Let's nurture nature with every cup we brew and every plant we grow!". This also has a picture and a "Lend a Hand" button and picture. 
+
+## Loyalty Epic
+
+### User Story 1
+
+After Emma goes to her first visit after being a member, she decides to take the offer of getting a free drink after 10 visits.
+
+**Action**
+
+She visits 10 times, going to the cash register, ordering, and then entering her email or phone number so the system can keep track of her progress.
+
+**Result**
+
+After each visit, she gets an email notification reminding her of her progress. After 10 visists, she gets emailed a barcode she can scan to get her next free drink. 
+
+### User Story 2
+
+Emma decides to get the 50% off your meal offer. 
+
+**Action**
+
+She posts a photo on Instagram with her coffee and tells her followers she recommends this coffee shop. She tags the coffee shop.
+
+**Result**
+
+She gets an email with a barcode that she can scan when she next comes in to get 50% off her order. 
+
+### User Story 3
+
+Emma decides to become a part of the volunteering team.
+
+**Action**
+
+She goes to the community page and clicks "Lend A Hand". 
+
+**Result**
+
+She gets a "Thank you for lending a hand!" confirmation of her enrollment and then gets an email reminder when the event gets closer with more information. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
