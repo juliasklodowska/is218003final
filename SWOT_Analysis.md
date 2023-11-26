@@ -12,4 +12,4 @@
 | Local Community Engagement: Building strong community ties through various initiatives. | Changing Consumer Trends: Shifts in consumer preferences and trends in the coffee industry.|
 
 ## Archetype: The Caregiver
-Focused on nurturing and providing comfort, our coffee shop will create a warm, welcoming environment that prioritizes customer care and community engagement.
+Focused on nurturing and providing comfort, our coffee shop will create a warm, welcoming environment that prioritizes customer care and community engagement.We will create a coffee shop that resembles the theme of a cozy cottage, evoking a sense of safety, homeliness, and community to customers. 
