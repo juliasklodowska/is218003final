@@ -12,5 +12,7 @@
 
 **[User Stories](User_Stories.md)**
 
+**[Figma Design](https://www.figma.com/file/lXlcK81N1dVrCc5ZWDGCmh/Final?type=design&node-id=0-1&mode=design&t=2wG7IkmMfvdNkW0d-0)**
+
 
 
