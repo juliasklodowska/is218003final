@@ -6,30 +6,15 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import DefaultLayout from "@/layouts/default";
 
-export default function IndexPage() {
-	return (
-		<DefaultLayout>
-			<section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
-				<div className="inline-block max-w-lg text-center justify-center">
-					<h1 className={title()}>Make&nbsp;</h1>
-					<h1 className={title({ color: "violet" })}>beautiful&nbsp;</h1>
-					<br />
-					<h1 className={title()}>
-						websites regardless of your design experience.
-					</h1>
-					<h4 className={subtitle({ class: "mt-4" })}>
-						Beautiful, fast and modern React UI library.
-					</h4>
-				</div>
+import style from '../styles/index.module.css'
 
-				<div className="mt-8">
-					<Snippet hideSymbol hideCopyButton variant="bordered">
-						<span>
-							Get started by editing <Code color="primary">pages/index.tsx</Code>
-						</span>
-					</Snippet>
-				</div>
-			</section>
-		</DefaultLayout>
-	);
+export default function IndexPage() {
+    return (
+        <DefaultLayout>
+            <section className={style.heroSection}>
+                <h1 className={style.title}>Welcome to Cottage Comfort Café</h1>
+                <h4 className={style.subtitle}>Where Every Sip Feels Like Home</h4>
+            </section>
+        </DefaultLayout>
+    );
 }
