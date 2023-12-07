@@ -21,7 +21,7 @@ Note: Class will not meet on November 24th due to Thanksgiving.
 | Date        | Valerie      | Julia      |
 |-------------|-------------|-------------|
 | Dec 1 (Fri)  |       X      |       X     |
-| Dec 6 (Wed)  |             |             |
+| Dec 6 (Wed)  |        X     |        X     |
 | Dec 8 (Fri)  |             |             |
 | Dec 13 (Wed) |             |             |
 
