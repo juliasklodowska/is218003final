@@ -3,7 +3,6 @@ import { Card, CardHeader, CardBody, Image, CardFooter } from "@nextui-org/react
 import DefaultLayout from "@/layouts/default";
 import style from "../styles/index.module.css";
 
-// Define an interface for the props
 interface CustomerTestimonialProps {
   name: string;
   imageSrc: string;
@@ -13,7 +12,7 @@ interface CustomerTestimonialProps {
 function CustomerTestimonial({ name, imageSrc, testimonial }: CustomerTestimonialProps) {
   return (
     <Card className="max-w-[400px] mb-4">
-      <CardHeader className="flex gap-3 items-center"> {/* Add items-center to vertically align items */}
+      <CardHeader className="flex gap-3 items-center">
         <Image
           alt={name}
           height={40}
@@ -26,7 +25,7 @@ function CustomerTestimonial({ name, imageSrc, testimonial }: CustomerTestimonia
           <p className="text-small text-default-500" style={{ fontFamily: 'Georgia, serif' }}>Loyal Customer</p>
         </div>
       </CardHeader>
-      <CardBody style={{ fontFamily: 'Georgia, serif' }}>
+      <CardBody style={{ fontFamily: 'Georgia, serif', paddingBottom: '30px', paddingLeft: '30px', paddingRight: '24px' }}>
         <p>{testimonial}</p>
       </CardBody>
     </Card>
@@ -119,56 +118,70 @@ export default function IndexPage() {
             </Card>
           ))}
         </div>
-
         </section>
             
-             {/* Spacer after cards */}
-      <div style={{ height: '114px', width: '100%' }}></div>
+        <div style={{ height: '114px', width: '100%' }}></div>
 
-      {/* New Rectangle Section with Image and Text */}
-      <div className={style.rectangleSection}>
-              <div className={style.rectangleImage}>
-                <img src="../images/coffee.png" alt="Coffee" />
+        <div className={style.rectangleSection}>
+                <div className={style.rectangleImage}>
+                  <img src="../images/family.png" alt="Coffee" />
+                </div>
+                <div className={style.rectangleTextContainer}>
+                  <h1 className={style.rectangleTitle}>Become Part of Our Family</h1>
+                  <h4 className={style.rectangleSubtitle}>
+                    Sign up for our rewards program now, and enjoy a free drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!
+                  </h4>
+                  <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
+                    Join our Family
+                  </button>
+                </div>
               </div>
-              <div className={style.rectangleTextContainer}>
-                <h1 className={style.rectangleTitle}>Become Part of Our Family</h1>
-                <h4 className={style.rectangleSubtitle}>
-                  Sign up for our rewards program now, and enjoy a free drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!
-                </h4>
-                <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
-                  Join our Family
-                </button>
-              </div>
-            </div>
             
-            {/* Customer Testimonials Section */}
-      <div style={{ height: '151px', width: '100%' }}></div>
-      <section className={style.customerTestimonials}>
-        <h2 className={style.testimonialsTitle}>Warm Words from Our Beloved Customers</h2>
+      {/* Customer Testimonials Section */}
+        <div style={{ height: '151px', width: '100%' }}></div>
+        <section className={style.customerTestimonials}>
+          <h2 className={style.testimonialsTitle}>Warm Words from Our Beloved Customers</h2>
 
-        <div className="flex flex-col items-center">
-          <div className="flex justify-center gap-4" style={{ marginBottom: '65px', marginTop: '73px' }}>
-            <CustomerTestimonial
-              name="Maya Singh"
-              imageSrc="../images/maya.png"
-              testimonial="“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”"
-            />
-            <CustomerTestimonial
-              name="Oliver Smith"
-              imageSrc="../images/oliver.png"
-              testimonial="“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”"
-            />
+          <div className="flex flex-col items-center">
+            <div className="flex justify-center gap-4" style={{ marginBottom: '45px', marginTop: '73px' }}>
+              <CustomerTestimonial
+                name="Maya Singh"
+                imageSrc="../images/maya.png"
+                testimonial="“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”"
+              />
+              <CustomerTestimonial
+                name="Oliver Smith"
+                imageSrc="../images/oliver.png"
+                testimonial="“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”"
+              />
+            </div>
+            <div className="flex justify-center">
+              <CustomerTestimonial
+                name="Elena Perez"
+                imageSrc="../images/elena.png"
+                testimonial="“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”"
+              />
+            </div>
           </div>
-          <div className="flex justify-center">
-            <CustomerTestimonial
-              name="Elena Rodriguez"
-              imageSrc="../images/elena.png"
-              testimonial="“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”"
-            />
-          </div>
-        </div>
       </section>
 
+      {/* Spacer between testimonials and new section */}
+      <div style={{ height: '110px', width: '100%' }}></div>
+      <div className={style.communitySection}>
+        <div className={style.communityImageContainer}>
+          <img src="../images/community.png" alt="Coffee" />
+        </div>
+        <div className={style.communityTextContainer}>
+          <h1 className={style.rectangleTitle}>Nurturing the Community</h1>
+          <h4 className={style.rectangleSubtitle}>
+          At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
+          </h4>
+          <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
+            Learn More
+          </button>
+        </div>
+      </div>
+            
       </section>
     </DefaultLayout>
   );
