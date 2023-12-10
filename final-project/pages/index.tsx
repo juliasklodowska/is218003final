@@ -85,17 +85,37 @@ export default function IndexPage() {
 
         <section className="w-full flex flex-col justify-between items-center" style={{ padding: '0 124px' }}>
           <div className="w-full flex justify-between items-center mb-6">
-            <h2 className={style.sectionTitle} style={{ color: '#000', fontFamily: 'Georgia', fontSize: '26px', fontStyle: 'normal', fontWeight: 400, lineHeight: '24px' }}>
+            {/* Title */}
+            <h2 style={{
+              color: '#000',
+              fontFamily: 'Georgia, "Times New Roman", Times, serif',
+              fontSize: '26px',
+              fontStyle: 'normal',
+              fontWeight: 400,
+              lineHeight: '24px'
+            }}>
               Community Favorites
             </h2>
-            <button className="bg-warning text-black py-3 px-4 rounded-lg shadow-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
+
+            {/* Button */}
+            <button style={{
+              backgroundColor: '#F5A524', 
+              color: 'black',
+              fontFamily: 'Georgia, "Times New Roman", Times, serif',
+              fontSize: 'large',
+              padding: '10px 20px',
+              borderRadius: '12px',
+              border: 'none',
+              cursor: 'pointer',
+            }}>
               Full Menu
             </button>
           </div>
 
+           {/* Cards Grid */}
           <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 w-full">
-          {list.map((item, index) => (
-            <Card shadow="sm" key={index}>
+            {list.map((item, index) => (
+              <Card shadow="sm" key={index}>
               <CardBody className="overflow-visible p-0">
                 <Image
                   shadow="sm"
@@ -176,11 +196,44 @@ export default function IndexPage() {
           <h4 className={style.rectangleSubtitle}>
           At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
           </h4>
-          <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
+          <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
             Learn More
           </button>
         </div>
       </div>
+
+      <section className={style.hoursLocationSection}>
+        <h2 className={style.sectionTitle}>Hours and Location</h2>
+
+        <div className={style.infoContainer}>
+          <div className={style.sectionImage}>
+            <img src="../images/map.png" alt="Descriptive Alt Text" />
+          </div>
+
+          <div className={style.textContainer}>
+            <div className={style.locationInfo}>
+              <h3 className={style.subHeading}>Location</h3>
+              <p>Cottage Comfort Café</p>
+              <p>123 Main Street</p>
+              <p>Newark, NJ 07102</p>
+              <p>123-456-7890</p>
+            </div>
+
+            <div className={style.hoursInfo}>
+              <h3 className={style.subHeading}>Hours</h3>
+              <p>Monday: 7:00am - 7:00pm</p>
+              <p>Tuesday: 7:00am - 7:00pm</p>
+              <p>Wednesday: 7:00am - 7:00pm</p>
+              <p>Thursday: 7:00am - 7:00pm</p>
+              <p>Friday: 7:00am - 7:00pm</p>
+              <p>Saturday: 6:00am - 6:00pm</p>
+              <p>Sunday: 6:00am - 3:00pm</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
             
       </section>
     </DefaultLayout>
