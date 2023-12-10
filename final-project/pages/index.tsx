@@ -1,28 +1,56 @@
+import React from "react";
+import { Card, CardHeader, CardBody, Image, CardFooter } from "@nextui-org/react"; // Ensure all these components are imported correctly
 import DefaultLayout from "@/layouts/default";
 import style from "../styles/index.module.css";
-import React from "react";
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+
+interface CustomerTestimonialProps {
+  name: string;
+  imageSrc: string;
+  testimonial: string;
+}
+
+function CustomerTestimonial({ name, imageSrc, testimonial }: CustomerTestimonialProps) {
+  return (
+    <Card className="max-w-[400px] mb-4">
+      <CardHeader className="flex gap-3 items-center">
+        <Image
+          alt={name}
+          height={40}
+          radius="full"
+          src={imageSrc}
+          width={40}
+        />
+        <div className="flex flex-col">
+          <p className="text-md" style={{ fontFamily: 'Georgia, serif', fontWeight: 'bold' }}>{name}</p>
+          <p className="text-small text-default-500" style={{ fontFamily: 'Georgia, serif' }}>Loyal Customer</p>
+        </div>
+      </CardHeader>
+      <CardBody style={{ fontFamily: 'Georgia, serif', paddingBottom: '30px', paddingLeft: '30px', paddingRight: '24px' }}>
+        <p>{testimonial}</p>
+      </CardBody>
+    </Card>
+  );
+}
 
 export default function IndexPage() {
-  
   const list = [
     {
-      title: "Nurture Nut Latte",
+      title: "Nurture Nut<br />Latte",
       img: "../images/latte.png",
       price: "$4.50",
     },
     {
-      title: "Garden Hug Matcha",
+      title: "Garden Hug<br />Matcha",
       img: "../images/matcha.png",
       price: "$6.50",
     },
     {
-      title: "Compassion Cappuccino",
+      title: "Compassion<br />Cappuccino",
       img: "../images/cappuccino.png",
       price: "$3.75",
     },
     {
-      title: "Meadow Mint Mocha",
+      title: "Meadow Mint<br />Mocha",
       img: "../images/mocha.png",
       price: "$5.50",
     }
@@ -42,7 +70,7 @@ export default function IndexPage() {
             <h1 className={style.title}>Welcome to Cottage Comfort Café</h1>
             <h4 className={style.subtitle}>Where Every Sip Feels Like Home</h4>
             <div className="mt-4 flex flex-col md:flex-row justify-center items-center gap-4">
-              <button className="bg-warning text-black font-bold py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
+              <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
                 Join our Family
               </button>
               <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
@@ -60,52 +88,100 @@ export default function IndexPage() {
             <h2 className={style.sectionTitle} style={{ color: '#000', fontFamily: 'Georgia', fontSize: '26px', fontStyle: 'normal', fontWeight: 400, lineHeight: '24px' }}>
               Community Favorites
             </h2>
-            <button className="bg-warning text-black font-bold py-3 px-4 rounded-lg shadow-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
+            <button className="bg-warning text-black py-3 px-4 rounded-lg shadow-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
               Full Menu
             </button>
           </div>
 
           <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 w-full">
-            {list.map((item, index) => (
-              <Card shadow="sm" key={index} isPressable onPress={() => console.log("item pressed")}>
-                <CardBody className="overflow-visible p-0" style={{ fontFamily: 'Georgia, serif' }}>
-                  <Image
-                    shadow="sm"
-                    radius="lg"
-                    width="100%"
-                    alt={item.title}
-                    className="w-full object-cover h-[140px]"
-                    src={item.img}
-                  />
-                </CardBody>
-                <CardFooter className="text-small justify-between" style={{ fontFamily: 'Georgia, serif' }}>
-                  <b>{item.title}</b>
-                  <p className="text-default-500">{item.price}</p>
-                </CardFooter>
-              </Card>
-            ))}
-          </div>
+          {list.map((item, index) => (
+            <Card shadow="sm" key={index}>
+              <CardBody className="overflow-visible p-0">
+                <Image
+                  shadow="sm"
+                  radius="lg"
+                  width="100%"
+                  alt={item.title.replace('<br />', ' ')}
+                  className="w-full object-cover h-[140px]"
+                  src={item.img}
+                />
+              </CardBody>
+              <CardFooter className="text-small justify-between" style={{
+                fontFamily: 'Georgia',
+                fontSize: '16px',
+                fontStyle: 'normal',
+                lineHeight: '24px'
+              }}>
+                <div dangerouslySetInnerHTML={{ __html: `<span style="font-weight: 700;">${item.title}</span>` }} />
+                <p className="text-default-500">{item.price}</p>
+              </CardFooter>
+            </Card>
+          ))}
+        </div>
         </section>
             
-             {/* Spacer after cards */}
-      <div style={{ height: '114px', width: '100%' }}></div>
+        <div style={{ height: '114px', width: '100%' }}></div>
 
-{/* New Rectangle Section with Image and Text */}
-      <div className={style.rectangleSection}>
-              <div className={style.rectangleImage}>
-                <img src="../images/coffee.png" alt="Coffee" />
+        <div className={style.rectangleSection}>
+                <div className={style.rectangleImage}>
+                  <img src="../images/family.png" alt="Coffee" />
+                </div>
+                <div className={style.rectangleTextContainer}>
+                  <h1 className={style.rectangleTitle}>Become Part of Our Family</h1>
+                  <h4 className={style.rectangleSubtitle}>
+                    Sign up for our rewards program now, and enjoy a free drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!
+                  </h4>
+                  <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
+                    Join our Family
+                  </button>
+                </div>
               </div>
-              <div className={style.rectangleTextContainer}>
-                <h1 className={style.rectangleTitle}>Become Part of Our Family</h1>
-                <h4 className={style.rectangleSubtitle}>
-                  Sign up for our rewards program now, and enjoy a free drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!
-                </h4>
-                <button className="bg-warning text-black font-bold py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
-                  Join our Family
-                </button>
-              </div>
+            
+      {/* Customer Testimonials Section */}
+        <div style={{ height: '151px', width: '100%' }}></div>
+        <section className={style.customerTestimonials}>
+          <h2 className={style.testimonialsTitle}>Warm Words from Our Beloved Customers</h2>
+
+          <div className="flex flex-col items-center">
+            <div className="flex justify-center gap-4" style={{ marginBottom: '45px', marginTop: '73px' }}>
+              <CustomerTestimonial
+                name="Maya Singh"
+                imageSrc="../images/maya.png"
+                testimonial="“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”"
+              />
+              <CustomerTestimonial
+                name="Oliver Smith"
+                imageSrc="../images/oliver.png"
+                testimonial="“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”"
+              />
             </div>
+            <div className="flex justify-center">
+              <CustomerTestimonial
+                name="Elena Perez"
+                imageSrc="../images/elena.png"
+                testimonial="“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”"
+              />
+            </div>
+          </div>
+      </section>
 
+      {/* Spacer between testimonials and new section */}
+      <div style={{ height: '110px', width: '100%' }}></div>
+      <div className={style.communitySection}>
+        <div className={style.communityImageContainer}>
+          <img src="../images/community.png" alt="Coffee" />
+        </div>
+        <div className={style.communityTextContainer}>
+          <h1 className={style.rectangleTitle}>Nurturing the Community</h1>
+          <h4 className={style.rectangleSubtitle}>
+          At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
+          </h4>
+          <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
+            Learn More
+          </button>
+        </div>
+      </div>
+            
       </section>
     </DefaultLayout>
   );
