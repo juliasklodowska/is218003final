@@ -52,5 +52,21 @@
     max-width: 100%; 
   }
 
+  .customerTestimonials {
+    text-align: center; 
+  }
+  
+  .testimonialsTitle {
+    color: #000;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 53px;
+  }
+
+  
+
   
 
