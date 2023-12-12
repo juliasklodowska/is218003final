@@ -35,7 +35,7 @@ import {
   
 		{/* Join Now Button */}
 		<div className="col-span-2 flex justify-end items-center">
-		  <NextLink href="/signup" passHref>
+		  <NextLink href="/join" passHref>
 			<Button size="lg" variant="shadow" color="warning">
 			  Join Now
 			</Button>
