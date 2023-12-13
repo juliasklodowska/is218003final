@@ -27,10 +27,13 @@ She said it felt “warm” and “caring” and remembered the name “Cottage 
     * **Fix**: Take the Forgot Password and Have an Account buttons away
 * Also saw the “Sign Up” button on the homepage where it brings her to the same sign up page
    * **Frustration**: Described how she thought the two pages ("Sign Up" and "Join the Community") were very different because the buttons wording is very different
+     * **Fix**: Change the “Sign Up” button to say “Join Now” to make it align with the “Join our Family” button so it is clear they both bring one to the same page
   * **Frustration**: When looking at the navigation bar, the “Community” section also looks like it would bring her to the same page as “join the community” call to action but it does not
+     * **Fix**: Changed call to action to say “Join our Family” instead of “Join the Community”, which separates it from the “Community” section of the page
   * **Frustration**: Yellow buttons on white background may be hard to see for her
-  * **Frustration**: Hard to see the white words on the hero section because of background image in second design and also navigation menu words in yellow are hard to see (should not do that) 
+  * **Frustration**: Hard to see the white words on the hero section because of background image in second design and also navigation menu words in yellow are hard to see (should not do that)
 * Described when scrolling down the home page how she saw the “Join the Community” call to action as well, and saw that if she signs up, she can get a free drink within a week; she had the same frustration though about making the button and text align more and both be about joining the family rather than community
+  * **Fix:** Changed that button as well from “Join the Community” to “Join our Family” to align with the header text more 
 
 **Second Task**: Learn More about the Community
 
