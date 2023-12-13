@@ -92,3 +92,65 @@ our community comes together, like a big, happy family" and "The staff is amazin
   * **Fix**: Change the menu page for both designs to have these elements 
 * Liked the layout and overall design, text, and photos of the first design for the Community Page, other than the “lend a hand” button, which is hard to see
   * **Fix**: changed both design layouts to be similar to that of the first design and took away the “lend a hand” button
+
+## First Design Session 2
+
+### Designs Tested
+**[First Figma Designs](First_Figma_Designs.md)**
+
+### Documentation
+
+**Date**: 12/1
+
+**Name of Who Tested**: Eryk Sklodowski
+
+**Time**: 5:45PM
+
+**5 Second test**
+
+He said it felt “acceptable” and “friendly” and remembered “Welcome to Cottage Comfort”. 
+
+**Think out Loud** 
+
+**First Task**: Join the rewards program
+
+* Also described looking at the hero section , seeing the image and buttons and clicking “join the community” where it brings him to a sign up page where he inputs name, email, and password and then clicks accept terms and conditions and “signup” (he also read the text above that stated that you get a free drink when signing up and a week to redeem, after 10 visits, and 50% off if recommend on socials). Saw the “Sign Up” button on the homepage.
+  * **Frustration**: Also mentioned how “Sign up” and “Join the Community” buttons seem like they would lead to different pages but don’t
+     * **Fix**: stated in session 1
+  * **Frustration**: Also mentioned when looking at the navigation bar, the “Community” section also looks like it would bring him to the same page as “join the community” call to action but it does not
+     * **Fix**: stated in session 1 
+* Also described when scrolling down the home page how he saw the “Join the Community” call to action as well, and saw that if he signs up, he can get a free drink within a week; he had the same frustration though about making the button and header text align more and both be about joining the family rather than community
+  * **Fix**: stated in session 1
+  * **Frustration**: Both headers for this section for both designs: “Become Part of this Cozy Circle” and “Join Our Cottage Comfort Family” are very long
+
+**Second Task**: Learn More about the Community
+
+* Clicked on the “Community” section of the navigation bar and was brought to the community page where he read about the community service the coffee shop does and saw the food drive event and gardening event where he could “lend a hand” by clicking “lend a hand”
+  * **Frustration**: Lend a hand button is not very visible since it is yellow and so is the text; the lend a hand button also does not work or lead him anywhere
+    * **Fix**: fixed in session 1
+* He also saw from scrolling down the page and seeing “Nurturing the Community” that when he clicked the button to “Learn More” he would also see the community page
+  * **Frustration**: Description for this section is very long
+
+**Third Task**: Check the Menu
+
+* From the landing page hero section, he clicked “See Menu” and it took him to the menu page where he saw the 8 different speciality drinks and then the regular menu below.
+* When scrolling down, he saw the “Community Favorites” and looked at the different drinks; then he clicked the “Full Menu” button
+* When looking at the navigation menu, he clicked “Full Menu”
+
+**Fourth Task**: Check Testimonial Reviews
+
+* He scrolled down and looked at the reviews and read them
+  * **Frustration**: The reviews don’t really look like reviews from users, but rather quotes; they have no personality to them
+  * **Frustration**: The header of this section is a bit confusing and has words some people may not understand (Patrons?)
+  * **Frustration**: For Design 1, they are a bit too much like the background 
+
+**Fifth Task**: Check Hours and Location
+
+* Clicked on Hours and Location in navigation bar and then saw the page; also saw hours and location through scrolling
+
+**A/B Testing**
+
+Liked the same layouts, texts, and designs as the previous person 
+
+Also mentioned that it was better to make sure that the design does not have a brown background for a section that is right above the footer, as it creates a weird white gap of nothing between the footer and end of the other brown section
+
