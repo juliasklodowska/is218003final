@@ -42,6 +42,7 @@ She said it felt “warm” and “caring” and remembered the name “Cottage 
 * She stated that she felt as though the text for “Join the Community” should be different from “Community” because it is very confusing because they both lead to different pages
 * She then clicked on the “Community” section of the navigation bar and was brought to the community page where she read about the community service the coffee shop does and saw the food drive event and gardening event where she could “lend a hand” by clicking “lend a hand”
   * **Frustration**: Lend a hand button is not very visible since it is yellow and so is the text
+    * **Fix**: Delete lend a hand button, as it does not lead the user to anything anyways
 * She also saw from scrolling down the page and seeing “Nurturing the Community” that when she clicked “Learn More” she would also see the community page
 
 **Third Task**: Check the Menu
