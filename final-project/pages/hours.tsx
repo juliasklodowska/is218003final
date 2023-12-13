@@ -11,7 +11,7 @@ const HoursAndLocationPage = () => {
     <Head>
         <title>Hours and Location</title>
         <meta name="description" content="Cottage Comfort Café, your cozy nook in Newark, welcomes you with aromatic coffee and comforting delights, perfectly situated at 123 Main Street with convenient hours to suit every schedule." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../images/logo.png"/>
       </Head>
 
             <Navbar />

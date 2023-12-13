@@ -56,7 +56,7 @@ export default function Home() {
       <Head>
         <title>Cottage Comfort Cafe</title>
         <meta name="description" content="Cottage Comfort Cafe offers a cozy retreat with its homestyle menu, inviting ambiance, and warm, community-focused experience, right at your fingertips." />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="../images/logo.png"/>
       </Head>
 
       <Navbar />

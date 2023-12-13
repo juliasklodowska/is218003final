@@ -53,7 +53,7 @@ const FullMenuPage = () => {
             <Head>
                 <title>Full Menu</title>
                 <meta name="description" content="The Cottage Comfort Café Full Menu page offers a delectable array of culinary delights to satisfy every palate, providing a delightful dining experience for all" />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="../images/logo.png"/>
             </Head>
 
             <Navbar />

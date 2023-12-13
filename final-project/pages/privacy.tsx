@@ -40,7 +40,7 @@ const PrivacyPolicyPage = () => {
         <Head>
             <title>Privacy Policy</title>
             <meta name="description" content="At Cottage Comfort Café, we respect your privacy, ensuring your personal information is collected and protected with utmost care." />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="../images/logo.png"/>
         </Head>
             
             <Navbar />
