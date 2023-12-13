@@ -67,13 +67,28 @@ She also saw that every page link was able to be seen in the footer, as well as 
 
 * She liked the hero section better for the second design where the image spans the whole screen
   * She liked the hero text of “Welcome to Cottage Comfort Cafe” rather than “Step into Cottage Comfort Cafe” and liked “Where every sip feels like home” rather than “Your Cozy Corner of Warmth and Flavor” (because it is more straightforward and understandable)
+    * **Fix**: Both designs now have the same hero image and layout, as well as the same text she chose that works better for the user
 * Liked the navigation bar from first design for all pages, the one where the words are all black and the title of the website (or page you are on) is bolded and black instead of yellow, which is hard to see
+  * **Fix**: Design 1 navigation bar stays the same, the second one is now purple instead of yellow to be more visible  
 * Liked the photo of the coffees around the table in the “Join the Community” section of the home page rather than lonely coffee photo in Design 2 because it shows more community; preferred the text stating: “Join Our Cottage Comfort Family” instead of “Become Part of Our Cozy Circle” because the latter feels more demanding and family seems more welcoming; for the description text, she liked “Sign up for our rewards program now, and enjoy a free coffee drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!” rather than “Register for our loyalty rewards today, and delight in a complimentary coffee beverage on your subsequent visit. Embrace this heartfelt greeting deal, active 7 days post your registration. The journey to joyous warmth awaits!” because it was shorter and easier to read
-* Liked testimonial text better in design 1 rather than design 2; design 2 text seemed too professional and hard to understand 
+   * **Fix**: Kept image for design 1 but changed image to become more warmer and welcome for design 2
+   * **Fix**: Changed Design 2 text from “Become Part of Our Cozy Circle”
+   * **Fix**: Changed Design 2 text from:“Register for our loyalty rewards today, and delight in a complimentary coffee beverage on your subsequent visit. Embrace this heartfelt greeting deal, active 7 days post your registration. The journey to joyous warmth awaits!” to  “Sign up for our rewards program now, and enjoy a free coffee drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!”
+     * In the second design, added a division between the previous text and “Let the countdown to comfort begin!” (need to test whether the original or this new design is better)
+* Liked testimonial text better in design 1 rather than design 2; design 2 text seemed too professional and hard to understand
+  * **Fix**: Changed text in Design 2 from “Heartfelt Reflections from Our Cherished Guests” to something simpler and changed review text from: "Cottage Comfort Café is a peaceful haven providing a heartwarming sense of belonging and care with every cup” and "More than just great coffee, Cottage Comfort Café is where
+our community comes together, like a big, happy family" and "The staff is amazing and the coffee is perfect. Every visit feels like a warm, comforting embrace" to “Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special” and “Cottage Comfort Café's serene ambiance and heavenly lattes make every visit a soothing retreat from the outside” and "Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte." 
 * Liked the first design’s testimonial layout and thought the second design’s background photo takes away the attention from the reviews
+  * **Fix**: Took away the background photo from Design 2
 * Liked the first design for the “Nurturing the Community” section because the second design is hard to read because of the colors and the background image
+  * **Fix**: Kept design 1 layout, changed design 2 layout to design 1
 * Liked the overall layout of elements in Design 1. Design 2 has the Testimonials, Nurturing the Community, and the Join the Community sections all piled together and it looks off
+  * **Fix**: Kept design 1 simple layout, changed design 2 layout to design 1
 * Liked the first design for location and hours as well; second design was not visually pleasing and the location and hours text being unaligned did not look good
+  * **Fix**:  Kept design 1 layout and changed design 2 to be similar but with the button in a different location (which will be tested)
 * For the Signup Page, she liked the white on white design of the first design, but liked the white input boxes of the second design better (since the yellow ones seemed odd)
+  * **Fix**: Made both designs have white on white design and white input boxes
 * For the menu page, she liked the first design’s layout in regards to the specialty drinks being on the white background rather than a brown background (because the white aligns with the design of the menu in the home page); however she also liked the second design’s regular menu layout more, as it divided everything better and make items look more clear
+  * **Fix**: Change the menu page for both designs to have these elements 
 * Liked the layout and overall design, text, and photos of the first design for the Community Page, other than the “lend a hand” button, which is hard to see
+  * **Fix**: changed both design layouts to be similar to that of the first design and took away the “lend a hand” button
