@@ -143,8 +143,11 @@ He said it felt “acceptable” and “friendly” and remembered “Welcome to
 
 * He scrolled down and looked at the reviews and read them
   * **Frustration**: The reviews don’t really look like reviews from users, but rather quotes; they have no personality to them
+    * **Fix**: Change the cards to have pictures attached to them to represent profile pictures, and with those profile photos are the names of the customers, their reviews, and proof they are a loyal customer 
   * **Frustration**: The header of this section is a bit confusing and has words some people may not understand (Patrons?)
+    * **Fix**: Change header for both designs to : “Warm Words from Our Beloved Customers” 
   * **Frustration**: For Design 1, they are a bit too much like the background
+    * **Fix**: Change background color for testimonials to a light gray instead of white
 
 **Fifth Task**: Check Hours and Location
 
