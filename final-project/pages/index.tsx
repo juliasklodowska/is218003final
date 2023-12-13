@@ -1,244 +1,626 @@
-import React from "react";
-import { Card, CardHeader, CardBody, Image, CardFooter } from "@nextui-org/react"; // Ensure all these components are imported correctly
-import DefaultLayout from "@/layouts/default";
-import style from "../styles/index.module.css";
+import Head from 'next/head';
+import styles from '../styles/index.module.css';
+import { Navbar } from '../components/navbar';
+import Footer from '../components/footer';
+import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; 
 
-interface CustomerTestimonialProps {
-  name: string;
-  imageSrc: string;
-  testimonial: string;
-}
-
-function CustomerTestimonial({ name, imageSrc, testimonial }: CustomerTestimonialProps) {
-  return (
-    <Card className="max-w-[400px] mb-4">
-      <CardHeader className="flex gap-3 items-center">
-        <Image
-          alt={name}
-          height={40}
-          radius="full"
-          src={imageSrc}
-          width={40}
-        />
-        <div className="flex flex-col">
-          <p className="text-md" style={{ fontFamily: 'Georgia, serif', fontWeight: 'bold' }}>{name}</p>
-          <p className="text-small text-default-500" style={{ fontFamily: 'Georgia, serif' }}>Loyal Customer</p>
-        </div>
-      </CardHeader>
-      <CardBody style={{ fontFamily: 'Georgia, serif', paddingBottom: '30px', paddingLeft: '30px', paddingRight: '24px' }}>
-        <p>{testimonial}</p>
-      </CardBody>
-    </Card>
-  );
-}
-
-export default function IndexPage() {
+export default function Home() {
   const list = [
     {
-      title: "Nurture Nut<br />Latte",
+      title: "Nurture Nut Latte",
       img: "../images/latte.png",
       price: "$4.50",
     },
     {
-      title: "Garden Hug<br />Matcha",
+      title: "Garden Hug Matcha",
       img: "../images/matcha.png",
       price: "$6.50",
     },
     {
-      title: "Compassion<br />Cappuccino",
+      title: "Compassion Cappuccino",
       img: "../images/cappuccino.png",
       price: "$3.75",
     },
     {
-      title: "Meadow Mint<br />Mocha",
+      title: "Meadow Mint Mocha",
       img: "../images/mocha.png",
       price: "$5.50",
-    }
+    },
+  ];
+
+  const testimonialData = [
+    {
+      name: "Maya Singh",
+      role: "Loyal Customer",
+      imageSrc: "../images/maya.png",
+      content: "“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”",
+    },
+    {
+      name: "Oliver Smith",
+      role: "Loyal Customer",
+      imageSrc: "../images/oliver.png",
+      content: "“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”",
+    },
+    {
+      name: "Elena Perez",
+      role: "Loyal Customer",
+      imageSrc: "../images/elena.png",
+      content: "“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”",
+    },
   ];
 
   return (
-    <DefaultLayout>
-      <section className="flex flex-col justify-center items-center py-8 md:py-10">
-        <div style={{ backgroundColor: '#F5A524', height: '48px', width: '100%' }} />
-        
-        <div className="flex justify-center items-center w-full relative" style={{ backgroundColor: '#312107', height: '565px' }}>
-          <div className="absolute top-0 left-0 right-0 bottom-0">
-            <img src="../images/hero_image.png" alt="Descriptive Image Text" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-          </div>
+    <div className={styles.container}>
+      <Head>
+        <title>Cottage Comfort Cafe</title>
+        <meta name="description" content="Cottage Comfort Cafe offers a cozy retreat with its homestyle menu, inviting ambiance, and warm, community-focused experience, right at your fingertips." />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-          <div className="text-center z-10">
-            <h1 className={style.title}>Welcome to Cottage Comfort Café</h1>
-            <h4 className={style.subtitle}>Where Every Sip Feels Like Home</h4>
-            <div className="mt-4 flex flex-col md:flex-row justify-center items-center gap-4">
-              <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
-                Join our Family
-              </button>
-              <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
+      <Navbar />
+
+      <main className={styles.main}>
+        <div
+          style={{
+            height: '48px',
+            backgroundColor: '#F5A524',
+            width: '100%',
+          }}
+        ></div>
+
+        {/* Hero Section */}
+        <section
+          style={{
+            height: '565px',
+            backgroundColor: '#312107',
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            position: 'relative',
+          }}
+        >
+          <img
+            src='../images/hero_image.png' // Replace with your image path
+            alt="Image Overlay"
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+            }}
+          />
+          <div
+            style={{
+              textAlign: 'center',
+              position: 'relative',
+              zIndex: 1,
+            }}
+          >
+            <h1
+              className={styles.title}
+              style={{
+                color: '#FFF',
+                fontFamily: 'Georgia',
+                fontSize: '42px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+              }}
+            >
+              Welcome to Cottage Comfort Cafe
+            </h1>
+            <p
+              className={styles.description}
+              style={{
+                color: '#FFF',
+                fontFamily: 'Georgia',
+                fontSize: '26px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+              }}
+            >
+              Home in Every Sip - Free Drink Upon Joining!
+            </p>
+            {/* Buttons with margin */}
+            <div style={{ marginTop: '32px' }}>
+              <Button
+                color="warning"
+                size="lg"
+                variant="solid"
+                style={{
+                  fontFamily: 'Georgia',
+                  fontSize: '16px',
+                  fontStyle: 'normal',
+                  fontWeight: 'bold',
+                  lineHeight: '24px',
+                  marginRight: '32px',
+                }}
+              >
+                Join Our Family
+              </Button>
+              <Button
+                color="warning"
+                size="lg"
+                variant="bordered"
+                style={{
+                  fontFamily: 'Georgia',
+                  fontSize: '16px',
+                  fontStyle: 'normal',
+                  fontWeight: 'bold',
+                  lineHeight: '24px',
+                  borderWidth: '2px',
+                }}
+              >
                 See Menu
-              </button>
+              </Button>
             </div>
+            {/* End of Buttons */}
+          </div>
+        </section>
+        {/* End of Hero Section */}
+
+        <div
+          style={{
+            height: '48px',
+            backgroundColor: '#F5A524',
+            width: '100%',
+          }}
+        ></div>
+
+        {/* Space between sections */}
+        <div style={{ height: '114px' }}></div>
+
+        {/* Community Favorites Section */}
+        <section
+          style={{
+            color: '#000',
+            fontFamily: 'Georgia',
+            fontSize: '26px',
+            fontStyle: 'normal',
+            fontWeight: 400,
+            lineHeight: '24px',
+            marginLeft: '124px', // Add left margin
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between', // Align items horizontally
+            paddingRight: '124px', // Add right padding
+          }}
+        >
+          Community Favorites
+          {/* Button on the same line */}
+          <Button
+            color="warning"
+            size="lg"
+            variant='shadow'
+            style={{
+              fontFamily: 'Georgia',
+              fontSize: '16px',
+              fontStyle: 'normal',
+              fontWeight: 'bold',
+              lineHeight: '24px',
+            }}
+          >
+            Full Menu
+          </Button>
+        </section>
+        {/* End of Community Favorites Section */}
+        
+        {/* Space between sections */}
+        <div style={{ height: '20px' }}></div>
+
+        {/* Cards Container */}
+        <div
+          style={{
+            marginLeft: '124px', // Add left margin to match the title
+            marginRight: '124px', // Add right margin to match the title
+          }}
+        >
+          <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+            {list.map((item) => (
+              <Card shadow="sm">
+                <CardBody className="overflow-visible p-0">
+                  <Image
+                    shadow="sm"
+                    radius="lg"
+                    width="100%"
+                    alt={item.title}
+                    className="w-full object-cover h-[140px]"
+                    src={item.img}
+                  />
+                </CardBody>
+                <CardFooter className="text-small justify-between">
+                  <b style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 700, lineHeight: '24px' }}>{item.title}</b>
+                  <p style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: '24px' }}>{item.price}</p>
+                </CardFooter>
+              </Card>
+            ))}
           </div>
         </div>
+        {/* End of Cards Container */}
+        
+        {/* Space between sections */}
+        <div style={{ height: '114px' }}></div>
 
-        <div style={{ backgroundColor: '#F5A524', height: '48px', width: '100%' }} />
-        <div style={{ height: '113px', width: '100%' }}></div>
+        {/* Family Section */}
+        <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
+          <img
+            src="../images/family.png"
+            alt="Family Image"
+            style={{
+              width: '50%',
+              height: '613px',
+              objectFit: 'cover',
+            }}
+          />
 
-        <section className="w-full flex flex-col justify-between items-center" style={{ padding: '0 124px' }}>
-          <div className="w-full flex justify-between items-center mb-6">
-            {/* Title */}
-            <h2 style={{
+          <section
+            style={{
+              height: '613px',
+              backgroundColor: '#312107',
+              width: '888px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexDirection: 'column',
+              padding: '0 32px',
+            }}
+          >
+            <h2
+              style={{
+                color: '#FFF',
+                textAlign: 'center',
+                fontFamily: 'Georgia',
+                fontSize: '42px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+                margin: '0',
+              }}
+            >
+              Become Part of Our Family
+            </h2>
+            <p
+              style={{
+                color: '#F4F4F5',
+                textAlign: 'center',
+                fontFamily: 'Georgia',
+                fontSize: '22px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+                margin: '24px 0',
+              }}
+            >
+              Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
+            </p>
+            <div style={{ marginTop: '32px', textAlign: 'center' }}>
+              <Button
+                color="warning"
+                size="lg"
+                variant="solid"
+                style={{
+                  fontFamily: 'Georgia',
+                  fontSize: '16px',
+                  fontStyle: 'normal',
+                  fontWeight: 'bold',
+                  lineHeight: '24px',
+                }}
+              >
+                Join Our Family
+              </Button>
+            </div>
+          </section>
+        </div>
+        {/* End of Family Section */}
+
+        {/* Testimonial Section */}
+        <section
+          style={{
+            marginTop: '70px', // Increased margin from the top
+            backgroundColor: '#FFF',
+            textAlign: 'center',
+            fontFamily: 'Georgia',
+            fontSize: '42px',
+            fontStyle: 'normal',
+            fontWeight: 400,
+            lineHeight: '53px',
+            color: '#000',
+          }}
+        >
+          Warm Words from Our Beloved Customers
+        </section>
+        {/* End of Testimonial Section */}
+
+        {/* Testimonial Cards */}
+        <div
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            marginTop: '65px', // Increased margin from the top for the first line of cards
+          }}
+        >
+          {/* First Line of Cards */}
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+            {testimonialData.slice(0, 2).map((item, index) => (
+              <Card className="max-w-[400px]" key={index}>
+                <CardHeader className="flex gap-3">
+                  <Image
+                    alt={item.name}
+                    height={40}
+                    radius="lg"
+                    src={item.imageSrc}
+                    width={40}
+                  />
+                  <div className="flex flex-col">
+                    <p
+                      style={{
+                        fontFamily: 'Georgia',
+                        fontSize: '16px',
+                        fontStyle: 'normal',
+                        fontWeight: 700,
+                        lineHeight: '24px',
+                      }}
+                    >
+                      {item.name}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: 'Georgia',
+                        fontSize: '16px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '24px',
+                        color: '#666',
+                      }}
+                    >
+                      {item.role}
+                    </p>
+                  </div>
+                </CardHeader>
+                <CardBody>
+                  <p
+                    style={{
+                      fontFamily: 'Georgia',
+                      fontSize: '16px',
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      lineHeight: '24px',
+                    }}
+                  >
+                    {item.content}
+                  </p>
+                </CardBody>
+              </Card>
+            ))}
+          </div>
+
+          {/* Space between sections */}
+            <div style={{ height: '65px' }}></div>
+
+          {/* Second Line of Cards */}
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px' }}>
+            {testimonialData.slice(2).map((item, index) => (
+              <Card className="max-w-[400px]" key={index}>
+                <CardHeader className="flex gap-3">
+                  <Image
+                    alt={item.name}
+                    height={40}
+                    radius="lg"
+                    src={item.imageSrc}
+                    width={40}
+                  />
+                  <div className="flex flex-col">
+                    <p
+                      style={{
+                        fontFamily: 'Georgia',
+                        fontSize: '16px',
+                        fontStyle: 'normal',
+                        fontWeight: 700, // Bold
+                        lineHeight: '24px',
+                      }}
+                    >
+                      {item.name}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: 'Georgia',
+                        fontSize: '16px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '24px',
+                        color: '#666',
+                      }}
+                    >
+                      {item.role}
+                    </p>
+                  </div>
+                </CardHeader>
+                <CardBody>
+                  <p
+                    style={{
+                      fontFamily: 'Georgia',
+                      fontSize: '16px',
+                      fontStyle: 'normal',
+                      fontWeight: 400,
+                      lineHeight: '24px',
+                    }}
+                  >
+                    {item.content}
+                  </p>
+                </CardBody>
+              </Card>
+            ))}
+          </div>
+        </div>
+        {/* End of Testimonial Cards */}
+
+        {/* Space between Testimonial Cards and Community Section */}
+        <div style={{ height: '110px' }}></div>
+        
+        {/* Community Section */}
+        <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', width: '100%' }}>
+          <section
+            style={{
+              height: '613px',
+              backgroundColor: '#312107',
+              width: '888px',
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              flexDirection: 'column',
+              padding: '0 32px',
+            }}
+          >
+            <h2
+              style={{
+                color: '#FFF',
+                textAlign: 'center',
+                fontFamily: 'Georgia',
+                fontSize: '42px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+                margin: '0',
+              }}
+            >
+              Nurturing the Community
+            </h2>
+            <p
+              style={{
+                color: '#F4F4F5',
+                textAlign: 'center',
+                fontFamily: 'Georgia',
+                fontSize: '22px',
+                fontStyle: 'normal',
+                fontWeight: 400,
+                lineHeight: '53px',
+                margin: '24px 0',
+              }}
+            >
+              At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
+            </p>
+            <div style={{ marginTop: '32px', textAlign: 'center' }}>
+              <Button
+                color="warning"
+                size="lg"
+                variant="bordered"
+                style={{
+                  fontFamily: 'Georgia',
+                  fontSize: '16px',
+                  fontStyle: 'normal',
+                  fontWeight: 'bold',
+                  lineHeight: '24px',
+                }}
+              >
+                Learn More
+              </Button>
+            </div>
+          </section>
+          <img
+            src="../images/community.png"
+            alt="Family Image"
+            style={{
+              width: '50%',
+              height: '613px',
+              objectFit: 'cover',
+            }}
+          />
+        </div>
+        {/* End of Community Section */}
+
+        {/* Space between Community Section  and Hours and Location Section*/}
+        <div style={{ height: '110px' }}></div>
+
+        {/* Hours and Location Section */}
+        <section>
+          <h2
+            style={{
               color: '#000',
-              fontFamily: 'Georgia, "Times New Roman", Times, serif',
-              fontSize: '26px',
+              textAlign: 'center',
+              fontFamily: 'Georgia',
+              fontSize: '42px',
               fontStyle: 'normal',
               fontWeight: 400,
-              lineHeight: '24px'
-            }}>
-              Community Favorites
-            </h2>
+              lineHeight: '53px',
+            }}
+          >
+            Hours and Location
+          </h2>
 
-            {/* Button */}
-            <button style={{
-              backgroundColor: '#F5A524', 
-              color: 'black',
-              fontFamily: 'Georgia, "Times New Roman", Times, serif',
-              fontSize: 'large',
-              padding: '10px 20px',
-              borderRadius: '12px',
-              border: 'none',
-              cursor: 'pointer',
-            }}>
-              Full Menu
-            </button>
-          </div>
+          {/* Space between title and content */}
+          <div style={{ height: '91px' }}></div>
 
-           {/* Cards Grid */}
-          <div className="gap-2 grid grid-cols-2 sm:grid-cols-4 w-full">
-            {list.map((item, index) => (
-              <Card shadow="sm" key={index}>
-              <CardBody className="overflow-visible p-0">
-                <Image
-                  shadow="sm"
-                  radius="lg"
-                  width="100%"
-                  alt={item.title.replace('<br />', ' ')}
-                  className="w-full object-cover h-[140px]"
-                  src={item.img}
-                />
-              </CardBody>
-              <CardFooter className="text-small justify-between" style={{
-                fontFamily: 'Georgia',
-                fontSize: '16px',
-                fontStyle: 'normal',
-                lineHeight: '24px'
-              }}>
-                <div dangerouslySetInnerHTML={{ __html: `<span style="font-weight: 700;">${item.title}</span>` }} />
-                <p className="text-default-500">{item.price}</p>
-              </CardFooter>
-            </Card>
-          ))}
-        </div>
-        </section>
-            
-        <div style={{ height: '114px', width: '100%' }}></div>
-
-        <div className={style.rectangleSection}>
-                <div className={style.rectangleImage}>
-                  <img src="../images/family.png" alt="Coffee" />
-                </div>
-                <div className={style.rectangleTextContainer}>
-                  <h1 className={style.rectangleTitle}>Become Part of Our Family</h1>
-                  <h4 className={style.rectangleSubtitle}>
-                    Sign up for our rewards program now, and enjoy a free drink with your next order. This warm welcome offer is valid starting 7 days after your sign-up. Let the countdown to comfort begin!
-                  </h4>
-                  <button className="bg-warning text-black py-3 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia', marginTop: '20px' }}>
-                    Join our Family
-                  </button>
-                </div>
-              </div>
-            
-      {/* Customer Testimonials Section */}
-        <div style={{ height: '151px', width: '100%' }}></div>
-        <section className={style.customerTestimonials}>
-          <h2 className={style.testimonialsTitle}>Warm Words from Our Beloved Customers</h2>
-
-          <div className="flex flex-col items-center">
-            <div className="flex justify-center gap-4" style={{ marginBottom: '45px', marginTop: '73px' }}>
-              <CustomerTestimonial
-                name="Maya Singh"
-                imageSrc="../images/maya.png"
-                testimonial="“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”"
+          {/* Image Container */}
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
+            <div style={{ position: 'relative', maxWidth: '30%', marginRight: '25px', marginBottom: '110px' }}>
+              <img
+                src="../images/map.png" 
+                alt="Hours and Location"
+                style={{
+                  width: '100%', 
+                  height: 'auto',
+                }}
               />
-              <CustomerTestimonial
-                name="Oliver Smith"
-                imageSrc="../images/oliver.png"
-                testimonial="“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”"
-              />
+              {/* Button */}
+              <Button
+                color="warning"
+                size="md"
+                variant="shadow"
+                style={{
+                  position: 'absolute', 
+                  bottom: '10px', 
+                  right: '10px',
+                  fontFamily: 'Georgia',
+                  fontSize: '14px',
+                  fontStyle: 'normal',
+                  fontWeight: 'normal',
+                  lineHeight: '24px',
+                }}
+              >
+                Get Directions
+              </Button>
             </div>
-            <div className="flex justify-center">
-              <CustomerTestimonial
-                name="Elena Perez"
-                imageSrc="../images/elena.png"
-                testimonial="“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”"
-              />
-            </div>
-          </div>
-      </section>
 
-      {/* Spacer between testimonials and new section */}
-      <div style={{ height: '110px', width: '100%' }}></div>
-      <div className={style.communitySection}>
-        <div className={style.communityImageContainer}>
-          <img src="../images/community.png" alt="Coffee" />
-        </div>
-        <div className={style.communityTextContainer}>
-          <h1 className={style.rectangleTitle}>Nurturing the Community</h1>
-          <h4 className={style.rectangleSubtitle}>
-          At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
-          </h4>
-          <button className="border-4 border-warning text-warning font-bold py-2 px-4 rounded-lg text-lg" style={{ fontSize: 'lg', fontFamily: 'Georgia' }}>
-            Learn More
-          </button>
-        </div>
-      </div>
-
-      <section className={style.hoursLocationSection}>
-        <h2 className={style.sectionTitle}>Hours and Location</h2>
-
-        <div className={style.infoContainer}>
-          <div className={style.sectionImage}>
-            <img src="../images/map.png" alt="Descriptive Alt Text" />
-          </div>
-
-          <div className={style.textContainer}>
-            <div className={style.locationInfo}>
-              <h3 className={style.subHeading}>Location</h3>
+            {/* Location Column */}
+            <div style={{ color: '#000', fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: '35px', marginRight: '100px'}}>
+              <h3 style={{ color: '#000', fontFamily: 'Georgia', fontSize: '22px', fontStyle: 'normal', fontWeight: 700, lineHeight: '53px', marginBottom: '20px' }}>Location</h3>
               <p>Cottage Comfort Café</p>
               <p>123 Main Street</p>
               <p>Newark, NJ 07102</p>
               <p>123-456-7890</p>
             </div>
 
-            <div className={style.hoursInfo}>
-              <h3 className={style.subHeading}>Hours</h3>
-              <p>Monday: 7:00am - 7:00pm</p>
-              <p>Tuesday: 7:00am - 7:00pm</p>
-              <p>Wednesday: 7:00am - 7:00pm</p>
-              <p>Thursday: 7:00am - 7:00pm</p>
-              <p>Friday: 7:00am - 7:00pm</p>
-              <p>Saturday: 6:00am - 6:00pm</p>
-              <p>Sunday: 6:00am - 3:00pm</p>
+            {/* Hours Column */}
+            <div style={{ color: '#000', fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: '35px' }}>
+              <h3 style={{ color: '#000', fontFamily: 'Georgia', fontSize: '22px', fontStyle: 'normal', fontWeight: 700, lineHeight: '53px', marginBottom: '20px' }}>Hours</h3>
+              <p>Monday 7:00am - 7:00pm</p>
+              <p>Tuesday 7:00am - 7:00pm</p>
+              <p>Wednesday 7:00am - 7:00pm</p>
+              <p>Thursday 7:00am - 7:00pm</p>
+              <p>Friday 7:00am - 7:00pm</p>
+              <p>Saturday 6:00am - 6:00pm</p>
+              <p>Sunday 6:00am - 3:00pm</p>
             </div>
           </div>
-        </div>
-      </section>
-      
+        </section>
 
-            
-      </section>
-    </DefaultLayout>
+        {/* End of Hours and Location Section */}
+
+
+      </main>
+
+      <Footer />
+    </div>
   );
 }
+
+
+
 
 
 
