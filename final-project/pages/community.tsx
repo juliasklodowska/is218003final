@@ -10,7 +10,7 @@ const CommunityPage = () => {
         <Head>
             <title>Community</title>
             <meta name="description" content="Cottage Comfort Café Community is a place where we come together to share kindness and support, making a positive impact on our local community." />
-            <link rel="icon" href="/favicon.ico" />
+            <link rel="icon" href="../images/logo.png"/>
         </Head>
 
             

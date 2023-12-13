@@ -52,8 +52,8 @@ const JoinPage = () => {
         fontStyle: 'normal',
         fontWeight: '700',
         lineHeight: '53px',
-        position: 'absolute' as 'absolute', // Type casting to assert position type
-        top: '117px', // 117px away from the top of the rectangle input
+        position: 'absolute' as 'absolute', 
+        top: '117px', 
         left: '0',
         right: '0',
     };
@@ -63,7 +63,7 @@ const JoinPage = () => {
              <Head>
                 <title>Join Now</title>
                 <meta name="description" content="Join the Cottage Comfort Cafe community and unlock exclusive discounts, VIP access to new menu items, loyalty rewards, and exciting culinary events." />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="../images/logo.png"/>
             </Head>
             
             {/* Include the NavBar component */}
