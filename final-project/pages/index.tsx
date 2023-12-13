@@ -2,7 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/index.module.css';
 import { Navbar } from '../components/navbar';
 import Footer from '../components/footer';
-import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; // Import the necessary components
+import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; 
 
 export default function Home() {
   const list = [

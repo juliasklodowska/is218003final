@@ -18,7 +18,7 @@ const JoinPage = () => {
         fontStyle: 'normal',
         fontWeight: '700',
         lineHeight: '53px',
-        marginTop: '72px', // 72px away from the navbar
+        marginTop: '72px', 
     };
 
     const contentStyle = {
@@ -28,9 +28,9 @@ const JoinPage = () => {
         fontSize: '22px',
         fontStyle: 'normal',
         fontWeight: '400',
-        lineHeight: '60px', // Increased line-height for larger container
-        marginBottom: '32px', // Increased marginBottom for larger container
-        marginTop: '64px', // 64px underneath the title
+        lineHeight: '60px', 
+        marginBottom: '32px', 
+        marginTop: '64px', 
     };
 
     const formContainerStyle = {
@@ -38,9 +38,9 @@ const JoinPage = () => {
         height: '781px',
         borderRadius: '14px',
         background: 'var(--common-white, #FFF)',
-        boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)', // Drop shadow
-        margin: '64px auto 160px', // 64px underneath the subtext and 160px away from the footer
-        position: 'relative' as 'relative', // Type casting to assert position type
+        boxShadow: '0px 4px 12px rgba(0, 0, 0, 0.1)', 
+        margin: '64px auto 160px', 
+        position: 'relative' as 'relative', 
     };
 
     const titleTextStyle = {
@@ -73,7 +73,7 @@ const JoinPage = () => {
                     {/* Title */}
                     <p style={titleTextStyle}>Personal Information</p>
 
-                    {/* Add your form components here */}
+                    
                 </div>
 
             </div>
