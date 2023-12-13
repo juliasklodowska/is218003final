@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import { Navbar } from '../components/navbar'; 
 import Footer from '../components/footer';
@@ -59,6 +60,12 @@ const JoinPage = () => {
 
     return (
         <div>
+             <Head>
+                <title>Join Now</title>
+                <meta name="description" content="Join the Cottage Comfort Cafe community and unlock exclusive discounts, VIP access to new menu items, loyalty rewards, and exciting culinary events." />
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+            
             {/* Include the NavBar component */}
             <Navbar />
 
