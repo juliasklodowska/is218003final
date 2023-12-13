@@ -20,6 +20,7 @@
 ## Usability Testing
 
 **[Usability Testing Sessions Documentation](Usability_Testing.md)**
+**[UX Written Report](Usability_Report.md)**
 
 
 
