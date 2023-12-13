@@ -59,6 +59,7 @@ She said it felt “warm” and “caring” and remembered the name “Cottage 
 
 * Clicked on Hours and Location in navigation bar and then saw the page; also saw hours and location through scrolling
   * **Frustration**: She stated that it was weird how the “Hours and Location” section in the navigation bar is “Location and Hours” when she clicks on the page and when she scrolls down the home page
+    * **Fix**: Change the header text to “Hours and Location”
 
 She also saw that every page link was able to be seen in the footer, as well as a sign up section 
 
