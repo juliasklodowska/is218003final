@@ -23,6 +23,6 @@ Note: Class will not meet on November 24th due to Thanksgiving.
 | Dec 1 (Fri)  |       X      |       X     |
 | Dec 6 (Wed)  |        X     |        X     |
 | Dec 8 (Fri)  |        X     |       X      |
-| Dec 13 (Wed) |             |             |
+| Dec 13 (Wed) |         X    |       X      |
 
 
