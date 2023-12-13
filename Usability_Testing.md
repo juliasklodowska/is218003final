@@ -33,6 +33,7 @@ She said it felt “warm” and “caring” and remembered the name “Cottage 
   * **Frustration**: Yellow buttons on white background may be hard to see for her
      * **Fix**: For Design 1, added drop shadow to make buttons stand out more over white background in all pages and sections of website; for Design 2, changed buttons on white background to be purple so they can stand out (need to test again to see which option better)
   * **Frustration**: Hard to see the white words on the hero section because of background image in second design and also navigation menu words in yellow are hard to see (should not do that)
+     * **Fix**: Made the transparency of the photo more transparent (40%) so that you can see the text better ; for Design 2, made words that are bolded in yellow to be purple (and more visible)
 * Described when scrolling down the home page how she saw the “Join the Community” call to action as well, and saw that if she signs up, she can get a free drink within a week; she had the same frustration though about making the button and text align more and both be about joining the family rather than community
   * **Fix:** Changed that button as well from “Join the Community” to “Join our Family” to align with the header text more 
 
