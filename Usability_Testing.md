@@ -24,6 +24,7 @@ She said it felt “warm” and “caring” and remembered the name “Cottage 
 
 * Described looking at the hero section , seeing the image and buttons and clicking “join the community” where it brings her to a sign up page where she inputs name, email, and password and then clicks accept terms and conditions and “signup”
   * **Frustration**: Forgot Password and Have an Account buttons don’t take her anywhere
+    * **Fix**: Take the Forgot Password and Have an Account buttons away
 * Also saw the “Sign Up” button on the homepage where it brings her to the same sign up page
    * **Frustration**: Described how she thought the two pages ("Sign Up" and "Join the Community") were very different because the buttons wording is very different
   * **Frustration**: When looking at the navigation bar, the “Community” section also looks like it would bring her to the same page as “join the community” call to action but it does not
