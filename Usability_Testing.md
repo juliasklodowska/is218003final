@@ -122,6 +122,7 @@ He said it felt “acceptable” and “friendly” and remembered “Welcome to
 * Also described when scrolling down the home page how he saw the “Join the Community” call to action as well, and saw that if he signs up, he can get a free drink within a week; he had the same frustration though about making the button and header text align more and both be about joining the family rather than community
   * **Fix**: stated in session 1
   * **Frustration**: Both headers for this section for both designs: “Become Part of this Cozy Circle” and “Join Our Cottage Comfort Family” are very long
+    * **Fix**: Change the headers for both to: “Become Part of Our Family”
 
 **Second Task**: Learn More about the Community
 
@@ -130,6 +131,7 @@ He said it felt “acceptable” and “friendly” and remembered “Welcome to
     * **Fix**: fixed in session 1
 * He also saw from scrolling down the page and seeing “Nurturing the Community” that when he clicked the button to “Learn More” he would also see the community page
   * **Frustration**: Description for this section is very long
+    * **Fix**: Shorten the description to: “At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.”
 
 **Third Task**: Check the Menu
 
@@ -142,7 +144,7 @@ He said it felt “acceptable” and “friendly” and remembered “Welcome to
 * He scrolled down and looked at the reviews and read them
   * **Frustration**: The reviews don’t really look like reviews from users, but rather quotes; they have no personality to them
   * **Frustration**: The header of this section is a bit confusing and has words some people may not understand (Patrons?)
-  * **Frustration**: For Design 1, they are a bit too much like the background 
+  * **Frustration**: For Design 1, they are a bit too much like the background
 
 **Fifth Task**: Check Hours and Location
 
