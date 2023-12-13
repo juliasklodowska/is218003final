@@ -3,6 +3,8 @@ import styles from '../styles/index.module.css';
 import { Navbar } from '../components/navbar';
 import Footer from '../components/footer';
 import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; 
+import Link from 'next/link';
+
 
 export default function Home() {
   const list = [
@@ -127,6 +129,7 @@ export default function Home() {
             </p>
             {/* Buttons with margin */}
             <div style={{ marginTop: '32px' }}>
+            <Link href="/join" passHref>
               <Button
                 color="warning"
                 size="lg"
@@ -140,8 +143,10 @@ export default function Home() {
                   marginRight: '32px',
                 }}
               >
-                Join Our Family
+                Join our Family
               </Button>
+            </Link>
+            <Link href="/menu" passHref>
               <Button
                 color="warning"
                 size="lg"
@@ -157,6 +162,7 @@ export default function Home() {
               >
                 See Menu
               </Button>
+              </Link>
             </div>
             {/* End of Buttons */}
           </div>
@@ -191,7 +197,7 @@ export default function Home() {
           }}
         >
           Community Favorites
-          {/* Button on the same line */}
+          <Link href="/menu" passHref>
           <Button
             color="warning"
             size="lg"
@@ -206,6 +212,7 @@ export default function Home() {
           >
             Full Menu
           </Button>
+          </Link>
         </section>
         {/* End of Community Favorites Section */}
         
@@ -298,6 +305,7 @@ export default function Home() {
               Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
             </p>
             <div style={{ marginTop: '32px', textAlign: 'center' }}>
+            <Link href="/join" passHref>
               <Button
                 color="warning"
                 size="lg"
@@ -312,6 +320,7 @@ export default function Home() {
               >
                 Join Our Family
               </Button>
+              </Link>
             </div>
           </section>
         </div>
@@ -505,6 +514,7 @@ export default function Home() {
               At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
             </p>
             <div style={{ marginTop: '32px', textAlign: 'center' }}>
+            <Link href="/community" passHref>
               <Button
                 color="warning"
                 size="lg"
@@ -519,6 +529,7 @@ export default function Home() {
               >
                 Learn More
               </Button>
+              </Link>
             </div>
           </section>
           <img
@@ -567,6 +578,7 @@ export default function Home() {
                 }}
               />
               {/* Button */}
+              <Link href="https://www.google.com/maps/place/Newark,+NJ/@40.7313841,-74.2646284,12z/data=!3m1!4b1!4m6!3m5!1s0x89c25370329a0e1d:0xe1bcdc2adcfee473!8m2!3d40.735657!4d-74.1723667!16zL20vMGhwdG0?entry=ttu" passHref>
               <Button
                 color="warning"
                 size="md"
@@ -584,6 +596,7 @@ export default function Home() {
               >
                 Get Directions
               </Button>
+              </Link>
             </div>
 
             {/* Location Column */}

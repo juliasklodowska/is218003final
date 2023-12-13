@@ -188,7 +188,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '10px', 
+                marginBottom: '4px', 
             }}
         >
             Coffee
@@ -240,7 +240,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '5px',
+                marginBottom: '4px',
             }}
         >
             Espresso
@@ -357,7 +357,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '10px', // Add some space below each section name
+                marginBottom: '4px', 
             }}
         >
             Tea
@@ -367,7 +367,7 @@ const FullMenuPage = () => {
                 width: '619px',
                 height: '1px',
                 backgroundColor: '#F5A524',
-                marginBottom: '10px', // Add some space below the line
+                marginBottom: '10px',
             }}
         ></div>
         {/* Additional Text for Tea */}
@@ -435,7 +435,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '10px', 
+                marginBottom: '4px', 
             }}
         >
             More
@@ -486,7 +486,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '10px', 
+                marginBottom: '4px', 
             }}
         >
             Milk Options
@@ -524,7 +524,7 @@ const FullMenuPage = () => {
                 marginTop: '5px', 
             }}
         >
-            SKim Milk
+            Skim Milk
         </div>
         <div
             style={{
@@ -577,7 +577,7 @@ const FullMenuPage = () => {
                 fontStyle: 'normal',
                 fontWeight: 700,
                 lineHeight: '24px',
-                marginBottom: '10px', 
+                marginBottom: '4px', 
             }}
         >
             Syrup Options
