@@ -276,6 +276,7 @@ She also saw that every page link was able to be seen in the footer, as well as 
 
 * From the landing page, he clicked “See Menu” and it took him to the menu page where he saw the 8 different speciality drinks and then the regular menu below.
   * **Frustration**: The button in the hero section “See Menu” is a bit hard to read because of its design (this same complaint was made about the “Learn More” button on the home page in the “Nurturing the Community” section on the first design)
+    * **Fix**: Make these buttons that are bordered more thicker so you can see it more clearly 
 * When scrolling down, he saw the “Community Favorites” and looked at the different drinks; then he clicked the “Full Menu” button
 * When looking at the navigation menu, he also saw “Full Menu” as a page
 
