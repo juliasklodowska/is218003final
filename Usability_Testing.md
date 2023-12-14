@@ -295,7 +295,8 @@ He also saw that every page link was able to be seen in the footer, as well as a
   * **Fix**: Session 3 stated this fix
 
 **Overall Frustration**: He thought that all the text in all the pages is a bit long and a lot to read and that it is hard for him to focus and read so much text.
-* **Fix**: Every section of the home page and every other page got a shortened version revision to the text it had that is more straight to the point. 
+* **Fix**: Every section of the home page and every other page got a shortened version revision to the text it had that is more straight to the point.
+  * Testimonial names, Nurturing the Community in home page, Become Part of Our Family in home page, Create an Account page text description, Community page description and event descriptions, and menu names for the drinks
 
 **A/B Testing**
 
