@@ -234,4 +234,71 @@ She also saw that every page link was able to be seen in the footer, as well as 
 * For the community page, she definitely likes the Design 1 community page. It aligns more with the design on the home page and looks cleaner to her.
   * **Fix**: Use the layout of the community page that closely resembles design 1’s layout
 
+## Second (Updated) Designs Session 4
+
+### Designs Tested
+**[Second Figma Designs](Second_Figma_Designs.md)**
+
+### Documentation
+
+**Date**: 12/7
+
+**Name of Who Tested**: Eryk Sklodowski
+
+**Time**: 7:23PM
+
+**5 Second test**
+
+ He said the same thing that it was “friendly”, “acceptable”, and added “welcoming” and remembered the name “Cottage Comfort Cafe” and “Join Our Family” as well. 
+ 
+**Think out Loud** 
+
+**First Task**: Join the rewards program
+
+* As in the first design, described looking at the hero section , seeing the image and buttons and now clicking “join our family”  or “join now” where it brings him to the same sign up page where he inputs name, email, and password and then clicks accept terms and conditions and “signup”
+  * **Frustration**: When first looking at the hero section, it is a bit boring and doesn’t reel him in that much. It lacks some inspiration and umph.
+    * **Fix**:  Reel the customer in by stating: “Home in Every Sip - Free Drink Upon Joining!”
+  * **Frustration**: He also stated the frustration of when clicking “sign up” on the sign up page, he did not know whether the information went through because there was no confirmation.
+    * **Fix**: Same fix as stated in Session 3
+* Also saw the “Join Now” button on the homepage navigation bar where it brings him to the same sign up page
+* Described when scrolling down the home page how he saw the “Join Our Family” call to action as well and “Become Part of Our Family” header
+  * **Frustration**: Said that he thought the photo for the join our family section should be more “familial” and give a sense of community
+    * **Fix**: Changed the photo from objects to something more intriguing and enticing such as a photo of a group of happy people apart of the cafe family 
+
+**Second Task**: Learn More about the Community
+
+* He clicked on the “Community” section of the navigation bar and was brought to the community page where he read about the community service the coffee shop does and saw the food drive event and gardening event 
+  * **Frustration**: The description for the gardening and food drive events do not describe how a community member can help out; there is the “lend a hand” text stating there is a button, but the button is not there.
+    * **Fix**: Same as for Session 3 
+* He also saw from scrolling down the page and seeing “Nurturing the Community” that when he clicked “Learn More” he would also see the community page
+
+**Third Task**: Check the Menu
+
+* From the landing page, he clicked “See Menu” and it took him to the menu page where he saw the 8 different speciality drinks and then the regular menu below.
+  * **Frustration**: The button in the hero section “See Menu” is a bit hard to read because of its design (this same complaint was made about the “Learn More” button on the home page in the “Nurturing the Community” section on the first design)
+    * **Fix**: Make these buttons that are bordered more thicker so you can see it more clearly 
+* When scrolling down, he saw the “Community Favorites” and looked at the different drinks; then he clicked the “Full Menu” button
+* When looking at the navigation menu, he also saw “Full Menu” as a page
+
+**Fourth Task**: Check Testimonial Reviews
+
+* He scrolled down and looked at the reviews and read them, and saw the people’s profile photos too
+  * **Frustration**: Thought the photos should more clearly depict the customers as happy
+    * **Fix**:  Added more happier photos to testimonials 
+
+**Fifth Task**: Check Hours and Location
+
+* Clicked on Hours and Location in navigation bar and then saw the page and “get directions” button, as well as a map; also saw hours and location through scrolling
+
+He also saw that every page link was able to be seen in the footer, as well as a subscribe section 
+* **Frustration**: subscribe section does not work
+  * **Fix**: Session 3 stated this fix
+
+**Overall Frustration**: He thought that all the text in all the pages is a bit long and a lot to read and that it is hard for him to focus and read so much text.
+* **Fix**: Every section of the home page and every other page got a shortened version revision to the text it had that is more straight to the point.
+  * Testimonial names, Nurturing the Community in home page, Become Part of Our Family in home page, Create an Account page text description, Community page description and event descriptions, and menu names for the drinks
+
+**A/B Testing**
+
+For A/B Testing, other than the changes of text to shorten everything and change images to be more of happy people, he also liked primarily the designs and layouts of design 1.
 
