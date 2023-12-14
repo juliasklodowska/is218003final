@@ -181,8 +181,11 @@ She said the same thing that it was “warm”, “caring”, and “welcoming�
 **First Task**: Join the rewards program
 
 * As in the first design, described looking at the hero section , seeing the image and buttons and now clicking “join our family”  or “join now” where it brings her to the same sign up page where she inputs name, email, and password and then clicks accept terms and conditions and “signup”
-  * **Frustration**: The header title says “Create An Account” for the title of the join now page, but the purpose of the website is to “Join Our Family” rather than create an account. The button for this page also states “Sign up” and it would make more sense for it to say “Join Now” just like the home page’s button says to remind the user they are joining the family 
-  * **Frustration**: When she clicked “sign up” on the sign up page, she did not know whether her information went through because there was no confirmation. She also was confused as to how she is getting her free drink and how her visits will be tracked for another free drink. 
+  * **Fix**: Password not needed and is not known how to be implemented through coding, so it was taken out so the user can just join through email and name
+  * **Frustration**: The header title says “Create An Account” for the title of the join now page, but the purpose of the website is to “Join Our Family” rather than create an account. The button for this page also states “Sign up” and it would make more sense for it to say “Join Now” just like the home page’s button says to remind the user they are joining the family
+    * **Fix**: Change header title text to “Join Our Family” on sign up page which reminds user of the call to action and is more welcoming and caring; changed the button on this page from “Sign up” to “Join Now” 
+  * **Frustration**: When she clicked “sign up” on the sign up page, she did not know whether her information went through because there was no confirmation. She also was confused as to how she is getting her free drink and how her visits will be tracked for another free drink.
+    * **Fix**: Add a page with the title “Successfully Joined!” which tells the user they have joined, and states more information about the rewards program: “Enjoy your free coffee! Provide us with your email each time you order and we’ll track your visits. After 10 visits, you'll get another free drink coupon in your inbox to redeem. Tag us on social media to get 50% off!”. It also states “Welcome to the Cottage Comfort Café Rewards Program!” and “Thank you for joining us! Exciting perks and treats await you. Check your inbox for a free coffee coupon - redeem it within a week!” which further explains what the user needs to do. It also has a “Return Home” button for users to return home.
 * Also saw the “Join Now” button on the homepage navigation bar where it brings her to the same sign up page
 Described when scrolling down the home page how she saw the “Join Our Family” call to action as well, and saw that if she signs up, she can get a free drink within a week
 
@@ -190,8 +193,10 @@ Described when scrolling down the home page how she saw the “Join Our Family�
 
 * She as for the first design, clicked on the “Community” section of the navigation bar and was brought to the community page where she read about the community service the coffee shop does and saw the food drive event and gardening event 
   * **Frustration**: The description for the gardening and food drive events do not describe how a community member can help out; there is the “lend a hand” text stating there is a button, but the button is not there.
+    * **Fix**: Fix: Add text stating that you can email or call the coffee shop if you want to help out and will get an email with more information; take away the “lend a hand” text that I forgot to take out when removing the “lend a hand” button 
   * **Frustration**: Not a fan about how when she clicks on a button in the navigation bar, how the words turn bold, showing her she is on the page, but the “Cottage Comfort Cafe” text is also bold in the navigation bar, confusing her.
 * She also saw from scrolling down the page and seeing “Nurturing the Community” that when she clicked “Learn More” she would also see the community page
+  * **Fix**: Keep the bolded “Cottage Comfort Cafe” text and instead when one clicks on a page, underline that page in the navigation bar so they know the page they are on 
 
 **Third Task**: Check the Menu
 
@@ -209,15 +214,24 @@ Described when scrolling down the home page how she saw the “Join Our Family�
 
 She also saw that every page link was able to be seen in the footer, as well as a subscribe section 
 * **Frustration**: subscribe section does not work
+  * **Fix**:  Remove it because we already have a join now page and change the footer
 * **Frustration**: There is also no link to the join our family page or a home link and no contact information for customers who need to contact the coffee shop (for example, about the community service or rewards program)
+  * **Fix**: Change footer’s layout so that the navigation links are next to the “Cottage Comfort Cafe” logo but on the right side, and then add contact links below the logo (which will aid in contacting the coffee shop when wanting to participate in community service activities); also added copyright and privacy policy to make it more professional; also added “Join our Family” link in footer to rewards program page
+ * **Improvement**: Also added privacy policy page and cookie consent popup with a link to privacy policy and button to “Decline” or “Accept” cookies
 
 **A/B Testing**
 
 * As for the color of the buttons (yellow or purple) on the white background for all pages, she definitely liked the yellow buttons. The purple did not seem to fit well with the archetype or vibe of the website. She also liked the text for Design 1 overall as well (“Join our Family” is more warm than “Join Now”)
-* Preferred the text layout and photo for Design 1 better for the “Become Part of Our Family” section of the home page. Design 2 felt less welcoming or community driven and the text separation didn’t look that good. 
+  * **Fix**: Changed buttons to be yellow but with the drop shadow in the first design   
+* Preferred the text layout and photo for Design 1 better for the “Become Part of Our Family” section of the home page. Design 2 felt less welcoming or community driven and the text separation didn’t look that good.
+  * **Fix**: Kept the text layout as one paragraph as Design 1 entails  
 * For the testimonials in the home page, she preferred the layout of 3 instead of 4 testimonials. She said 4 feels too crowded but also too orderly like a weird grid
+  * **Fix**: Made the design only have 3 testimonials 
 * For the home page’s community section, she preferred design 1’s “nurturing the community” rather than “caring for the community”, as it is less words and looks better. She also likes the bordered button rather than the solid one for “Learn More”
-* Layout of Hours and Location section on home page and Hours and Location page is better for Design 1 in her opinion. Having the “Get Directions” on the map allows easy access to seeing directions. 
-* For the community page, she definitely likes the Design 1 community page. It aligns more with the design on the home page and looks cleaner to her. 
+  * **Fix**: Made design look more like design 1
+* Layout of Hours and Location section on home page and Hours and Location page is better for Design 1 in her opinion. Having the “Get Directions” on the map allows easy access to seeing directions.
+  * **Fix**:  Choose Design 1 for Hours and Location design
+* For the community page, she definitely likes the Design 1 community page. It aligns more with the design on the home page and looks cleaner to her.
+  * **Fix**: Use the layout of the community page that closely resembles design 1’s layout
 
 
