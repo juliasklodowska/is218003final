@@ -222,10 +222,16 @@ She also saw that every page link was able to be seen in the footer, as well as 
 **A/B Testing**
 
 * As for the color of the buttons (yellow or purple) on the white background for all pages, she definitely liked the yellow buttons. The purple did not seem to fit well with the archetype or vibe of the website. She also liked the text for Design 1 overall as well (“Join our Family” is more warm than “Join Now”)
-* Preferred the text layout and photo for Design 1 better for the “Become Part of Our Family” section of the home page. Design 2 felt less welcoming or community driven and the text separation didn’t look that good. 
+  * **Fix**: Changed buttons to be yellow but with the drop shadow in the first design   
+* Preferred the text layout and photo for Design 1 better for the “Become Part of Our Family” section of the home page. Design 2 felt less welcoming or community driven and the text separation didn’t look that good.
+  * **Fix**: Kept the text layout as one paragraph as Design 1 entails  
 * For the testimonials in the home page, she preferred the layout of 3 instead of 4 testimonials. She said 4 feels too crowded but also too orderly like a weird grid
+  * **Fix**: Made the design only have 3 testimonials 
 * For the home page’s community section, she preferred design 1’s “nurturing the community” rather than “caring for the community”, as it is less words and looks better. She also likes the bordered button rather than the solid one for “Learn More”
-* Layout of Hours and Location section on home page and Hours and Location page is better for Design 1 in her opinion. Having the “Get Directions” on the map allows easy access to seeing directions. 
-* For the community page, she definitely likes the Design 1 community page. It aligns more with the design on the home page and looks cleaner to her. 
+  * **Fix**: Made design look more like design 1
+* Layout of Hours and Location section on home page and Hours and Location page is better for Design 1 in her opinion. Having the “Get Directions” on the map allows easy access to seeing directions.
+  * **Fix**:  Choose Design 1 for Hours and Location design
+* For the community page, she definitely likes the Design 1 community page. It aligns more with the design on the home page and looks cleaner to her.
+  * **Fix**: Use the layout of the community page that closely resembles design 1’s layout
 
 
