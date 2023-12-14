@@ -258,11 +258,12 @@ She also saw that every page link was able to be seen in the footer, as well as 
 * As in the first design, described looking at the hero section , seeing the image and buttons and now clicking “join our family”  or “join now” where it brings him to the same sign up page where he inputs name, email, and password and then clicks accept terms and conditions and “signup”
   * **Frustration**: When first looking at the hero section, it is a bit boring and doesn’t reel him in that much. It lacks some inspiration and umph.
     * **Fix**:  Reel the customer in by stating: “Home in Every Sip - Free Drink Upon Joining!”
-  * **Frustration**: He also stated the frustration of when clicking “sign up” on the sign up page, he did not know whether the information went through because there was no confirmation. 
+  * **Frustration**: He also stated the frustration of when clicking “sign up” on the sign up page, he did not know whether the information went through because there was no confirmation.
     * **Fix**: Same fix as stated in Session 3
 * Also saw the “Join Now” button on the homepage navigation bar where it brings him to the same sign up page
 * Described when scrolling down the home page how he saw the “Join Our Family” call to action as well and “Become Part of Our Family” header
-  * **Frustration**: Said that he thought the photo for the join our family section should be more “familial” and give a sense of community 
+  * **Frustration**: Said that he thought the photo for the join our family section should be more “familial” and give a sense of community
+    * **Fix**: Changed the photo from objects to something more intriguing and enticing such as a photo of a group of happy people apart of the cafe family 
 
 **Second Task**: Learn More about the Community
 
