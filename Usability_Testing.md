@@ -196,6 +196,7 @@ Described when scrolling down the home page how she saw the “Join Our Family�
     * **Fix**: Fix: Add text stating that you can email or call the coffee shop if you want to help out and will get an email with more information; take away the “lend a hand” text that I forgot to take out when removing the “lend a hand” button 
   * **Frustration**: Not a fan about how when she clicks on a button in the navigation bar, how the words turn bold, showing her she is on the page, but the “Cottage Comfort Cafe” text is also bold in the navigation bar, confusing her.
 * She also saw from scrolling down the page and seeing “Nurturing the Community” that when she clicked “Learn More” she would also see the community page
+  * **Fix**: Keep the bolded “Cottage Comfort Cafe” text and instead when one clicks on a page, underline that page in the navigation bar so they know the page they are on 
 
 **Third Task**: Check the Menu
 
