@@ -284,6 +284,7 @@ She also saw that every page link was able to be seen in the footer, as well as 
 
 * He scrolled down and looked at the reviews and read them, and saw the people’s profile photos too
   * **Frustration**: Thought the photos should more clearly depict the customers as happy
+    * **Fix**:  Added more happier photos to testimonials 
 
 **Fifth Task**: Check Hours and Location
 
