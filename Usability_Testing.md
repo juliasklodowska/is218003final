@@ -193,6 +193,7 @@ Described when scrolling down the home page how she saw the “Join Our Family�
 
 * She as for the first design, clicked on the “Community” section of the navigation bar and was brought to the community page where she read about the community service the coffee shop does and saw the food drive event and gardening event 
   * **Frustration**: The description for the gardening and food drive events do not describe how a community member can help out; there is the “lend a hand” text stating there is a button, but the button is not there.
+    * **Fix**: Fix: Add text stating that you can email or call the coffee shop if you want to help out and will get an email with more information; take away the “lend a hand” text that I forgot to take out when removing the “lend a hand” button 
   * **Frustration**: Not a fan about how when she clicks on a button in the navigation bar, how the words turn bold, showing her she is on the page, but the “Cottage Comfort Cafe” text is also bold in the navigation bar, confusing her.
 * She also saw from scrolling down the page and seeing “Nurturing the Community” that when she clicked “Learn More” she would also see the community page
 
