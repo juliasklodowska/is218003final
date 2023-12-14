@@ -214,7 +214,9 @@ Described when scrolling down the home page how she saw the “Join Our Family�
 
 She also saw that every page link was able to be seen in the footer, as well as a subscribe section 
 * **Frustration**: subscribe section does not work
+  * **Fix**:  Remove it because we already have a join now page and change the footer
 * **Frustration**: There is also no link to the join our family page or a home link and no contact information for customers who need to contact the coffee shop (for example, about the community service or rewards program)
+  * **Fix**: Change footer’s layout so that the navigation links are next to the “Cottage Comfort Cafe” logo but on the right side, and then add contact links below the logo (which will aid in contacting the coffee shop when wanting to participate in community service activities); also added copyright and privacy policy to make it more professional; also added “Join our Family” link in footer to rewards program page
 
 **A/B Testing**
 
