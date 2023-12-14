@@ -181,7 +181,8 @@ She said the same thing that it was “warm”, “caring”, and “welcoming�
 **First Task**: Join the rewards program
 
 * As in the first design, described looking at the hero section , seeing the image and buttons and now clicking “join our family”  or “join now” where it brings her to the same sign up page where she inputs name, email, and password and then clicks accept terms and conditions and “signup”
-  * **Frustration**: The header title says “Create An Account” for the title of the join now page, but the purpose of the website is to “Join Our Family” rather than create an account. The button for this page also states “Sign up” and it would make more sense for it to say “Join Now” just like the home page’s button says to remind the user they are joining the family 
+  * **Fix**: Password not needed and is not known how to be implemented through coding, so it was taken out so the user can just join through email and name
+  * **Frustration**: The header title says “Create An Account” for the title of the join now page, but the purpose of the website is to “Join Our Family” rather than create an account. The button for this page also states “Sign up” and it would make more sense for it to say “Join Now” just like the home page’s button says to remind the user they are joining the family
   * **Frustration**: When she clicked “sign up” on the sign up page, she did not know whether her information went through because there was no confirmation. She also was confused as to how she is getting her free drink and how her visits will be tracked for another free drink. 
 * Also saw the “Join Now” button on the homepage navigation bar where it brings her to the same sign up page
 Described when scrolling down the home page how she saw the “Join Our Family” call to action as well, and saw that if she signs up, she can get a free drink within a week
