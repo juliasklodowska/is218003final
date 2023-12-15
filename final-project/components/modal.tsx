@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import ReactDOM from 'react-dom';
-import styles from '../styles/modal.module.css'; // Import the CSS module
+import styles from '../styles/modal.module.css';
 
-import MailchimpForm from './Mailchimpform'; // Import the MailchimpForm component
+import MailchimpForm from './Mailchimpform';
 
 interface ModalProps {
   isOpen: boolean;
@@ -10,6 +10,13 @@ interface ModalProps {
 }
 
 const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
+  const [isBrowser, setIsBrowser] = useState(false);
+
+  useEffect(() => {
+    // Update the state to indicate that this is now in the browser (client-side)
+    setIsBrowser(typeof window !== 'undefined');
+  }, []);
+
   const modalContent = isOpen ? (
     <div className={styles.overlay}>
       <div className={styles.modalBackground}>
@@ -25,11 +32,15 @@ const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
     </div>
   ) : null;
 
-  // Using a portal to render the modal into the body of the document
-  return ReactDOM.createPortal(
-    modalContent,
-    document.body
-  );
+  // Only render the portal on the client-side
+  if (isBrowser) {
+    return ReactDOM.createPortal(
+      modalContent,
+      document.body
+    );
+  } else {
+    return null;
+  }
 };
 
 export default Modal;
