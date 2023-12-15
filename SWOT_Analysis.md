@@ -55,3 +55,35 @@ Focused on nurturing and providing comfort, our coffee shop will create a warm, 
 - Archetype: The explorer archetype also makes it dangerous because changing drinks and menus may create times where customers are not satisfied with changes
 
 Our coffee shop, in order to compete with Starbucks, which will be hard due to its global presence, loyal customer base, big budget, and credibilty, will also have many of these aspects. We will also have a rewards program and page that demonstrates our community service, but will make it more prominent and show that we value our community and family very much. We will emphasize the meaning of creating a loyal customer base, and make these people who join our rewards program feel like they are all a part of a big family. We will give constant rewards, and unlike Starbucks, offer a free drink to customers who join our loyalty program (reciprocity), and these customers will have a week to redeem this award (scarcity). We will also promote loyalty even more by giving those who recommend our drinks on social media, 50% off. Our prices will also be cheaper, but also very high quality. We will also show social proof, which is something Starbucks does not show, by clearly showing testimonials and reviews from happy customers, encouraging people to join our family. We will make customers feel more at home, and persuade them to join through photos of happy customers who are a part of this cozy family. We will also encourage people to participate in our community service events. Community service events, a cozy, warm website design layout, happy photos of customers, and a menu of drinks with warm, caring names also provides the persuasion tactic of liking. Starbucks also does not have any happy customers on their website. 
+
+### Dunkin' Donuts
+
+**Strengths**
+- Brand Recognition: Dunkin' is a well-established brand with strong recognition, especially in the United States.
+- Wide Product Range: Offers a variety of food and beverage options, appealing to a broad customer base.
+- Large Network: Extensive network of stores across various locations, enhancing accessibility.
+- Affordable Pricing: Generally lower prices compared to specialty coffee shops, attracting cost-conscious consumers.
+- Strong Franchise Model: Effective franchising contributes to widespread brand presence and growth.
+- Loyalty Program: A robust loyalty program that encourages repeat business.
+- Demonstrates persuasion tactics: reciprocity, scarcity, commitment and consistency, liking and consensus
+
+**Weaknesses**
+- Dependency on US Market: Over-reliance on the US market makes it vulnerable to regional economic fluctuations.
+- Limited Global Presence: Compared to some competitors, Dunkin' has a less extensive international footprint.
+- Perception as Lower Quality: The focus on affordability might lead to a perception of lower quality compared to specialty coffee brands.
+- Limited Healthier Options: The menu is often criticized for high-calorie, low-nutrient offerings.
+
+**Opportunities**
+- Expansion in International Markets: Significant potential for growth in international markets.
+- Healthier Menu Options: Growing demand for healthier, more nutritious food and beverage options.
+- Digital Integration and Technology: Further leveraging technology for ordering, delivery, and customer engagement.
+- Sustainability Initiatives: Increasing consumer interest in sustainability and ethical practices offers a chance to enhance brand image.
+
+**Threats**
+- Intense Competition: Faces stiff competition from both global chains and local coffee shops.
+- Market Saturation: In some areas, the coffee and fast-food market is highly saturated, limiting growth potential.
+- Economic Fluctuations: Vulnerability to economic downturns, which can impact consumer spending on eating out.
+- Changing Consumer Preferences: Shifts towards healthier lifestyles and dietary habits can impact demand for traditional menu items.
+
+Our coffee shop, even though it does not have the US presence that Dunkin' Donuts has, it can create a good local community or family better than Dunkin'. It will have a good local presence and bring customers in due to its warm, welcome, and caring tone. The vibe or layout of the store will consist of warm yellows and browns, making customers feel relaxed and at home. The feeling of homeliness will keep them loyal. Dunkin' also has lower-quality coffee in some people's opinions compared to other shops, but is affordable. We want to make sure our coffee is affordable and as high-quality as we can make it. We will also provide more liking compared to Dunkin', by showing our brand archetype clearly and also adding photos on the website of happy customers (which Dunkin' does not provide). We also will provide a link to a community page right in the navigation bar, which Dunkin' does not have, to a clear community service page that shows how much we care for our community and helping out those in need, making us more likeable (and showing we care for people, which Dunkin' does not really show). We will have interesting and warm coffee names, and give off a familial tone, so that everyone who walks in or enters our page feels the welcome and wants to buy from us. We will also emphasize the meaning of creating a loyal customer base, and make these people who join our rewards program feel like they are all a part of a big family, as I stated previously, through reciprocity and scarcity in our rewards. We will also promote loyalty even more by giving those who recommend our drinks on social media, 50% off. Another thing Dunkin' doesn't show is social proof, which we will, again, through testimonials from happy customers, and treat people like family. 
+
