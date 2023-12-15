@@ -18,7 +18,7 @@
     - If a customer joins their rewards program, every 200 points, they get a free drink, and there are more free prizes depending on the amount of points someone has
 3. **Consistency:**
     - Striving for consistency in the quality and taste of their products.
-5. **Liking:**
+4. **Liking:**
     - Building a brand that customers find relatable and aspirational.
     - Adhering to a brand archetype and designing a website that users with that archetype relate to, like, and want to buy from
     - Have a page on website dedicated to "Putting People First", promoting inclusion and diversity, putting their employees first and providing them with good opportunities, hosting events and service that help out the community and those in need, and more.
@@ -26,11 +26,24 @@
 ### Competitor 2: Dunkin' Donuts
 **Archetype: The Everyman**  
 - Dunkin' Donuts, known for its convenience and affordability, appeals to everyday people and is recognized as a go-to place for breakfast.
+- The slogan "America Runs on Dunkin" is also a prime example of how they are just the general and go-to place for Americans to get coffee and breakfast
+- The warm colors of pink and orange are friendly and approachable enough for everyone to want to go to Dunkin in order to fit in. The Everyman archetype is characterized by traits such as approachability, friendliness, and a desire to connect with everyday people, which is what these colors show. They are simple and not too over the top enough for people to not get scared off, but rather be comforted by a place where everyday people will go. The addition of white to the color scheme also makes it dependable, casual, and relatable. It is bright and friendly and somewhere everyone is comfortable to go to in order to just get a normal coffee. 
+- It is dependable, casual and relatable.
+- The logo is also clear and simple, only consisting of a coffee cup and the shop's name. It is clear, simple, and casual enough for everyman archetypes to go to it because they know what to expect.
+- The menu at Dunkin' features items that are simple, familiar, and appeal to a broad audience. Unlike specialty coffee shops that may offer more complex or niche products, Dunkin' focuses on providing straightforward, classic choices like donuts, bagels, and basic coffee drinks, resonating with the Everyman's preference for simplicity and comfort.
 
 **Methods of Persuasion:**
-1. **Reciprocity & Consensus:** Implementing loyalty programs that reward repeat customers and showcasing widespread acceptance.
-2. **Cost-Effectiveness:** Emphasizing competitive pricing and value for money.
-3. **Community-Centric Strategies:** Engaging with and giving back to the community.
+1. **Reciprocity:**
+        - Implementing loyalty programs that reward repeat customers and showcasing widespread acceptance (rewards customers with free drinks or rewards after earning a certain amount of points)
+        - loyalty program members receive special offers and coupons
+2. **Scarcity**
+        - Points have expiration dates for loyalty program
+        - Members of loyalty programs get offers that expire on certain dates
+3. **Commitment and Consistency**
+        - Dunkin offers a simple, familiar, and consistant menu of the same breakfast items or drinks that people would expect from a coffee shop and keeps these items (besides new items or drinks that come out and leave but regular items usually stay)
+4. **Liking:**
+        - Provides a website with the everyman archetype that reels customers in
+
 
 ### Competitor 3: Local Artisan Coffee Shop: Black Swan Espresso
 **Archetype: The Creator**  
