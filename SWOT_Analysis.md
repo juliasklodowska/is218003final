@@ -87,3 +87,38 @@ Our coffee shop, in order to compete with Starbucks, which will be hard due to i
 
 Our coffee shop, even though it does not have the US presence that Dunkin' Donuts has, it can create a good local community or family better than Dunkin'. It will have a good local presence and bring customers in due to its warm, welcome, and caring tone. The vibe or layout of the store will consist of warm yellows and browns, making customers feel relaxed and at home. The feeling of homeliness will keep them loyal. Dunkin' also has lower-quality coffee in some people's opinions compared to other shops, but is affordable. We want to make sure our coffee is affordable and as high-quality as we can make it. We will also provide more liking compared to Dunkin', by showing our brand archetype clearly and also adding photos on the website of happy customers (which Dunkin' does not provide). We also will provide a link to a community page right in the navigation bar, which Dunkin' does not have, to a clear community service page that shows how much we care for our community and helping out those in need, making us more likeable (and showing we care for people, which Dunkin' does not really show). We will have interesting and warm coffee names, and give off a familial tone, so that everyone who walks in or enters our page feels the welcome and wants to buy from us. We will also emphasize the meaning of creating a loyal customer base, and make these people who join our rewards program feel like they are all a part of a big family, as I stated previously, through reciprocity and scarcity in our rewards. We will also promote loyalty even more by giving those who recommend our drinks on social media, 50% off. Another thing Dunkin' doesn't show is social proof, which we will, again, through testimonials from happy customers, and treat people like family. 
 
+### Black Swan Espresso
+
+**Strengths**
+
+- Specialty Focus: Emphasis on specialty coffee and tea distinguishes it from generic coffee chains.
+- Quality of Products: Committed to high-quality, well-crafted beverages.
+- Local Community Connection: Strong ties to the Newark community, enhancing local customer loyalty.
+- Unique Experience: Provides a distinct coffee culture experience, differentiating from larger chains.
+- Customer Service: Reputation for friendly and attentive service.
+- Independent Brand Appeal: Appeals to customers who prefer supporting local, independent businesses over chains.
+- Demonstrates persuasion tactics: social proof, commitment and consistency, liking and consensus
+
+
+**Weaknesses**
+- Limited Scale: Being a single-location business limits market reach and economies of scale.
+- Limited Brand Recognition: Outside of its local area, the brand may not be widely recognized.
+- Resource Constraints: As a smaller operation, it might face challenges in funding, marketing, and expansion compared to larger chains.
+- Menu Diversity: May have a more limited menu compared to larger chains, potentially affecting its appeal to a broader audience.
+
+**Opportunities**
+- Expanding Customer Base: Potential to attract more customers seeking quality over generic chain experiences.
+- Local Partnerships: Opportunities for partnerships with other local businesses or events to enhance visibility and reach.
+- Digital Presence: Expanding its digital and social media presence to reach a wider audience and engage customers.
+- Sustainable Practices: Implementing or highlighting sustainable practices can appeal to environmentally conscious consumers.
+- Expanding Product Range: Introducing new and innovative beverage or food options can attract new customers.
+
+**Threats**
+- Competition: Faces competition from both local independent coffee shops and large coffee chains.
+- Economic Fluctuations: Economic downturns can reduce discretionary spending on premium coffee and tea.
+- Changing Consumer Preferences: Needs to stay attuned to changing tastes and preferences in the coffee market.
+- Operational Disruptions: Small businesses can be more vulnerable to disruptions in supply chains or local market conditions.
+
+Compared to this coffee shop, which is also a local coffee shop with not a huge presence worldwide or even statewide, we will make our shop better, since Black Swan Espresso does not have a rewards program to keep loyal customers coming. We will have a rewards program that frequently rewards customers, but also has time limits (reciprocity and scarcity which is something Black Swan does not have). They do have social proof through one quote from a customer on the home page, but we will show more social proof on the home page through showing 3 testimonials, along with the people's profile photos, showing that they are happy and loyal customers. This promotes people to want to buy our coffee, and makes us likeable. Black Swan Espresso does have community service events as well as we will have, but does not show how people can help out. Us, with our caregiver archetype, want to make a family out of our customers and show that we care for the community, so we encourage people to reach out to us to help out with our community service events. This also builds loyalty for our new small business. We also provide cute names for our drinks that are warm and caring, and promote more loyalty through giving people 50% off if they recommend us on social media. This is how we hope to accomplish more of a customer base in competition to Black Swan Espresso.
+
+
