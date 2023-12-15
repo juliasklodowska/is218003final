@@ -73,3 +73,41 @@ She reads the title: "Warm Words from Our Beloved Customers" with 3 cards from 3
 **Result**
 
 Not Applicable Informational Text
+
+
+### User Story 7
+
+She sees another section that tells her more about the community. 
+
+**Action**
+
+She looks at a photo of the workers at the coffee shop and they all look welcome, warm, and happy and are doing some sort of community service. Next to that picture is a description talking about how they help out the community apart from themselves: "At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors." This section is also titled "Nurturing the Community" which she reads. There is a "Learn More" Button too that she sees. 
+
+**Result**
+
+Not Applicable Informational Text
+
+### User Story 8
+
+She scrolls and sees the location and hours. 
+
+**Action**
+
+In this section titled "Hours and Location", she sees a map of the location and a button on the bottom stating "Get Directions". There is also hours of each day of the whole week stated, plus the location (name, address, town, state, zip code, and phone number). 
+
+**Result**
+
+Not Applicable Informational Text
+
+### User Story 8
+
+She finally sees the footer.
+
+**Action**
+
+In this section, she looks at the title "Cottage Comfort Cafe" on the left, and on the right is links to Home, Community, Hours and Location, Full Menu, and Join Our Family pages. Below this on the left she sees links to the coffee shop's email, phone, Instagram, and Twitter. On the right of that is the link to the privacy policy page and copyright information.
+
+**Result**
+
+Not Applicable Informational Text
+
