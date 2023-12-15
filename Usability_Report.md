@@ -1,4 +1,10 @@
-# Usability Report 
+# Usability Report
+
+## PDF of Report
+
+[PDF of Usability Report](https://github.com/juliasklodowska/is218003final/files/13680111/Untitled.document.pdf)
+
+**Introduction**
 
 For my group’s website, we decided to create a coffee shop with the Caregiver brand archetype called “Cottage Comfort Cafe”.  This website would demonstrate persuasion tactics of reciprocity (get a free drink after joining rewards program), scarcity (you only have a week to redeem the free drink), social proof (testimonials), commitment and consistency (after 10 visits, you get another free drink), and liking (community service page). Other pages included would be a location and hours page, join now page, and menu page. This website’s color scheme is also #F5A524 and #312107. Designing the contents of the website took some time, but after 4 testing sessions with 2 people, a user-friendly design was made.
 
