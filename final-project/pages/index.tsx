@@ -4,9 +4,14 @@ import { Navbar } from '../components/navbar';
 import Footer from '../components/footer';
 import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; 
 import Link from 'next/link';
+import React, { useState } from 'react';
+import Modal from '../components/modal';
 
 
 export default function Home() {
+
+  const [isModalOpen, setModalOpen] = useState(false);
+
   const list = [
     {
       title: "Nurture Nut Latte",
@@ -129,12 +134,11 @@ export default function Home() {
             </p>
             {/* Buttons with margin */}
             <div style={{ marginTop: '32px' }}>
-            <Link href="/join" passHref>
-              <Button
-                color="warning"
-                size="lg"
-                variant="solid"
-                style={{
+            <Button
+              color="warning"
+              size="lg"
+              variant="solid"
+              style={{
                   fontFamily: 'Georgia',
                   fontSize: '16px',
                   fontStyle: 'normal',
@@ -142,10 +146,10 @@ export default function Home() {
                   lineHeight: '24px',
                   marginRight: '32px',
                 }}
+                onClick={() => setModalOpen(true)} // Set state to open the modal
               >
                 Join our Family
               </Button>
-            </Link>
             <Link href="/menu" passHref>
               <Button
                 color="warning"
@@ -626,6 +630,9 @@ export default function Home() {
 
 
       </main>
+
+       {/* Include the Modal component */}
+       <Modal isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
 
       <Footer />
     </div>

@@ -2,6 +2,7 @@
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
     "framer-motion": "^10.16.15",
+    "react-cookie-consent": "^9.0.0",
     "react-mailchimp-subscribe": "^2.1.3"
   }
 }

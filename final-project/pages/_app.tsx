@@ -1,24 +1,38 @@
 import type { AppProps } from "next/app";
-
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
-import { fontSans, fontMono } from "@/config/fonts";
-import {useRouter} from 'next/router';
+import { useRouter } from 'next/router';
 import "@/styles/globals.css";
+import Script from "next/script";
+import CookieConsent from '../components/cookieconsent'; // Make sure the path matches the location of your component
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
-	return (
-		<NextUIProvider navigate={router.push}>
-			<NextThemesProvider>
-				<Component {...pageProps} />
-			</NextThemesProvider>
-		</NextUIProvider>
-	);
-}
+  return (
+    <>
+      {/* Google Analytics Scripts */}
+      <Script 
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-EHXRD5E77E" 
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-EHXRD5E77E');
+        `}
+      </Script>
 
-export const fonts = {
-	sans: fontSans.style.fontFamily,
-	mono: fontMono.style.fontFamily,
-};
+      <NextUIProvider navigate={router.push}>
+        <NextThemesProvider>
+          <Component {...pageProps} />
+        </NextThemesProvider>
+      </NextUIProvider>
+
+      {/* Cookie Consent Banner */}
+      <CookieConsent />
+    </>
+  );
+}

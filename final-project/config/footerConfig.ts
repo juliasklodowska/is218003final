@@ -8,7 +8,7 @@ export type FooterLink = {
   export const footerLinks: FooterLink[] = [
     {
       text: "Home",
-      href: "/index" 
+      href: "http://localhost:3000/" 
     },
     {
       text: "Community",
