@@ -31,6 +31,7 @@
 - It is dependable, casual and relatable.
 - The logo is also clear and simple, only consisting of a coffee cup and the shop's name. It is clear, simple, and casual enough for everyman archetypes to go to it because they know what to expect.
 - The menu at Dunkin' features items that are simple, familiar, and appeal to a broad audience. Unlike specialty coffee shops that may offer more complex or niche products, Dunkin' focuses on providing straightforward, classic choices like donuts, bagels, and basic coffee drinks, resonating with the Everyman's preference for simplicity and comfort.
+- The inside of the store consists of a very casual, dependable layout.
 
 **Methods of Persuasion:**
 1. **Reciprocity:**
@@ -48,9 +49,21 @@
 ### Competitor 3: Local Artisan Coffee Shop: Black Swan Espresso
 **Archetype: The Creator**  
 - Artisan coffee shops like Black Swan Espresso focus on the craft and art of coffee making.
+- The logo they have is creative, as it is the name of the shop but in fancy (creative) letters with one of the "S" letters being a little swan
+- They have an art gallery in store
+- The vibe and inside of the coffee shop is very creative and interesting to look at, with creative lights hanging from the sky, and a menu that is hand-written. This coffee shop's aesthetic is very artsy and beautiful to look at.
+- Photos of the menu items online are also very nicely taken professionally, and every item is laid out and placed in an artistic, photogenic way
+- Fonts on website are very creative
 
 **Methods of Persuasion:**
-1. **Liking & Consistency:** Creating a welcoming atmosphere and consistently delivering high-quality, handcrafted coffee.
-2. **Personalized Experience:** Offering a unique and personalized coffee experience.
-3. **Community Involvement:** Actively engaging with and responding to the local community.
-
+1. **Liking:**
+        - Creating a welcoming atmosphere and consistently delivering high-quality, handcrafted coffee.
+        - Providing a very beautiful website that is creative and matches the creator archetype for those to go on it and be reeled in
+        - Provides a community page with community service events the coffee shop participates in
+        - Provides a page for and explains how high quality and good the coffee roast is.
+2. **Social Proof:** 
+        - Provides a review quote from a customer
+        - Provides "Featured In" section, stating it was featured in New York Times and more.
+        - Describes they have helped give out 1,422,000 meals to struggling families.
+3. **Commitment and Consistency**
+        - They keep the same food and drinks all year round for customers. 
