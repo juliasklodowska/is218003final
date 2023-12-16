@@ -99,7 +99,7 @@ In this section titled "Hours and Location", she sees a map of the location and 
 
 Not Applicable Informational Text
 
-### User Story 8
+### User Story 9
 
 She finally sees the footer.
 
