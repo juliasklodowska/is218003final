@@ -17,6 +17,9 @@
 ### Archetype: The Caregiver
 Focused on nurturing and providing comfort, our coffee shop will create a warm, welcoming environment that prioritizes customer care and community engagement. We will create a coffee shop that resembles the theme of a cozy cottage, evoking a sense of safety, homeliness, and community to customers. This is called the Cottage Comfort Café. 
 
+### Persuasion 
+This coffee shop will demonstrate the tactic of reciprocity through offering a free drink upon joining rewards program and allowing customers to get a free drink after 10 visits. It will give the tactic of scarcity through only allowing 7 days to redeem the free drink, and the tactic of liking through showing photos on the site of happy customers, a caring brand archetype, and a community page that is dedicated to helping others and hosting community service events. Commitment and consistency is also shown through having the same type of items and coffees with warm, welcoming, and relaxing, cozy names. 
+
 ## Quick SWOT Analysis of other Coffee Shops
 
 ### Starbucks
