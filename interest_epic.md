@@ -2,7 +2,20 @@
 
 The website's design and hero section clearly communicate the coffee shop’s focus on community and relaxation. This aligns with Emma's values of warmth, community, family, comfort and relaxation (liking) as it gives off cozy cottage vibes that nurture and give everyone who comes in a sense of home and belonging. She also sees the "Join our Family" call to action, which gives off a warm tone, where she gets a coffee for free (reciprocity) when signing up and can redeem it in a week (scarcity). She also sees volunteer and community events she can go to and photos of smiling customers (liking). 
 
- ### User Story 1
+### User Story 1
+
+Emma gets a Cookie Consent pop up. 
+
+**Action**
+
+She accepts the cookies.
+
+**Result**
+
+She is now on the home page and sees it clearly.
+
+ 
+ ### User Story 2
 
 Emma sees the website's landing page and hero section.
 
@@ -14,7 +27,7 @@ She reads the hero text: "Welcome to Cottage Comfort Café" and "Home in Every S
 
 Not Applicable Informational Text
 
-### User Story 2
+### User Story 3
 
 Emma looks at the call to action
 
@@ -26,7 +39,7 @@ She sees a button that allows her to look at the menu and order: "See Menu", and
 
 Not Applicable Informational Text
 
- ### User Story 3
+ ### User Story 4
 
 Emma notices the navigation bar on the top of the menu.
 
@@ -38,7 +51,7 @@ She reads the different pages she can go on: "Community", "Hours and Location", 
 
 Not Applicable Informational Text
 
-### User Story 4
+### User Story 5
 
 She scrolls and sees drinks from the menu.
 
@@ -50,7 +63,7 @@ She reads the popular drinks from the menu titled: "Community Favorites" with a 
 
 Not Applicable Informational Text
 
-### User Story 5
+### User Story 6
 
 She sees the sign up button next as she scrolls down, as well as a message promoting scarcity and reciprocity. 
 
@@ -62,7 +75,7 @@ She reads text stating: "Become Part of Our Family" as a header, with a photo of
 
 Not Applicable Informational Text
 
-### User Story 6
+### User Story 7
 
 She sees a section focused on testimonials. 
 
@@ -75,7 +88,7 @@ She reads the title: "Warm Words from Our Beloved Customers" with 3 cards from 3
 Not Applicable Informational Text
 
 
-### User Story 7
+### User Story 8
 
 She sees another section that tells her more about the community. 
 
@@ -87,7 +100,7 @@ She looks at a photo of the workers at the coffee shop and they all look welcome
 
 Not Applicable Informational Text
 
-### User Story 8
+### User Story 9
 
 She scrolls and sees the location and hours. 
 
@@ -99,7 +112,7 @@ In this section titled "Hours and Location", she sees a map of the location and 
 
 Not Applicable Informational Text
 
-### User Story 9
+### User Story 10
 
 She finally sees the footer.
 
