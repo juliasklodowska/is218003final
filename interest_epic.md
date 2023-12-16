@@ -8,7 +8,7 @@ Emma sees the website's landing page and hero section.
 
 **Action**
 
-She reads the hero text: "Welcome to Cottage Comfort Café" and "Home in Every Sip - Free Drink Upon Joining!", which makes her feel at home and welcome, aligning with her values and needs. She is also intrigued by the free drink offer. 
+She reads the hero text: "Welcome to Cottage Comfort Café" and "Home in Every Sip - Free Drink Upon Joining!", which makes her feel at home and welcome, aligning with her values and needs. She is also intrigued by the free drink offer and likes the homely, familial, and warm, welcome tone of the brown background photo of the coffee shop with people sitting in chairs. 
 
 **Result**
 
