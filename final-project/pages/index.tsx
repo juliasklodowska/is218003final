@@ -15,22 +15,22 @@ export default function Home() {
   const list = [
     {
       title: "Nurture Nut Latte",
-      img: "../images/latte.png",
+      img: "../images/latte.webp",
       price: "$4.50",
     },
     {
       title: "Garden Hug Matcha",
-      img: "../images/matcha.png",
+      img: "../images/matcha.webp",
       price: "$6.50",
     },
     {
       title: "Compassion Cappuccino",
-      img: "../images/cappuccino.png",
+      img: "../images/cappuccino.webp",
       price: "$3.75",
     },
     {
       title: "Meadow Mint Mocha",
-      img: "../images/mocha.png",
+      img: "../images/mocha.webp",
       price: "$5.50",
     },
   ];
@@ -39,19 +39,19 @@ export default function Home() {
     {
       name: "Maya Singh",
       role: "Loyal Customer",
-      imageSrc: "../images/maya.png",
+      imageSrc: "../images/maya.webp",
       content: "“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”",
     },
     {
       name: "Oliver Smith",
       role: "Loyal Customer",
-      imageSrc: "../images/oliver.png",
+      imageSrc: "../images/oliver.webp",
       content: "“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”",
     },
     {
       name: "Elena Perez",
       role: "Loyal Customer",
-      imageSrc: "../images/elena.png",
+      imageSrc: "../images/elena.webp",
       content: "“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”",
     },
   ];
@@ -60,7 +60,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Cottage Comfort Cafe</title>
-        <meta name="description" content="Cottage Comfort Cafe offers a cozy retreat with its homestyle menu, inviting ambiance, and warm, community-focused experience, right at your fingertips." />
+        <meta name="description" content="Come to Cottage Comfort Café, a cozy haven with a warm, homely atmosphere, for a delicious artisan coffee and a free drink every 10 visits." />
         <link rel="icon" href="../images/logo.png"/>
       </Head>
 
@@ -88,8 +88,8 @@ export default function Home() {
           }}
         >
           <img
-            src='../images/hero_image.png' // Replace with your image path
-            alt="Image Overlay"
+            src='../images/hero_image.webp' 
+            alt="Hero Image Overlay"
             style={{
               position: 'absolute',
               top: 0,
@@ -259,7 +259,7 @@ export default function Home() {
         {/* Family Section */}
         <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
           <img
-            src="../images/family.png"
+            src="../images/family.webp"
             alt="Family Image"
             style={{
               width: '50%',
@@ -354,7 +354,7 @@ export default function Home() {
             display: 'flex',
             flexDirection: 'column',
             alignItems: 'center',
-            marginTop: '65px', // Increased margin from the top for the first line of cards
+            marginTop: '65px', 
           }}
         >
           {/* First Line of Cards */}
@@ -537,7 +537,7 @@ export default function Home() {
             </div>
           </section>
           <img
-            src="../images/community.png"
+            src="../images/community.webp"
             alt="Family Image"
             style={{
               width: '50%',
@@ -574,7 +574,7 @@ export default function Home() {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
             <div style={{ position: 'relative', maxWidth: '30%', marginRight: '25px', marginBottom: '110px' }}>
               <img
-                src="../images/map.png" 
+                src="../images/map.webp" 
                 alt="Hours and Location"
                 style={{
                   width: '100%', 

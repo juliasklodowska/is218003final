@@ -19,7 +19,7 @@ const CommunityPage = () => {
             {/* Family Section */}
             <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
                 <img
-                    src="../images/giving.png"
+                    src="../images/giving.webp"
                     alt="Community Giving Back Image"
                     style={{
                         width: '50%',
@@ -111,7 +111,7 @@ const CommunityPage = () => {
                 >
                     {/* Image on the left side */}
                     <img
-                        src="../images/fooddrive.png" 
+                        src="../images/fooddrive.webp" 
                         alt="Food Drive Image"
                         style={{
                             width: '50%', 
@@ -199,7 +199,7 @@ const CommunityPage = () => {
                 >
                     {/* Image on the left side */}
                     <img
-                        src="../images/garden.png" 
+                        src="../images/garden.webp" 
                         alt="Gardening Image"
                         style={{
                             width: '50%', 

@@ -40,7 +40,7 @@ const HoursAndLocationPage = () => {
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
             <div style={{ position: 'relative', maxWidth: '30%', marginRight: '25px', marginBottom: '110px' }}>
               <img
-                src="../images/map.png" 
+                src="../images/map.webp" 
                 alt="Hours and Location"
                 style={{
                   width: '100%', 
