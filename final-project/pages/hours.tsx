@@ -26,7 +26,7 @@ const HoursAndLocationPage = () => {
               fontFamily: 'Georgia',
               fontSize: '42px',
               fontStyle: 'normal',
-              fontWeight: 400,
+              fontWeight: 700,
               lineHeight: '53px',
               paddingTop: '72px'
             }}

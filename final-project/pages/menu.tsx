@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import React from 'react';
-import { Navbar } from '../components/navbar'; 
-import Footer from '../components/footer'; 
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import { Navbar } from '../components/navbar';
+import Footer from '../components/footer';
+import { Card, CardBody, CardFooter, Image as NextUIImage } from "@nextui-org/react";
+import Image from 'next/image'; // Importing the Image component from next/image
 
 const FullMenuPage = () => {
     const menuItems = [
@@ -97,15 +98,15 @@ const FullMenuPage = () => {
                 }}
             >
                 {menuItems.map((item) => (
-                    <Card shadow="sm">
+                    <Card shadow="sm" key={item.title}>
                         <CardBody className="overflow-visible p-0">
-                            <Image
+                            <NextUIImage
                                 shadow="sm"
                                 radius="lg"
                                 width="100%"
                                 alt={item.title}
                                 className="w-full object-cover h-[140px]"
-                                src={item.img}
+                                src={item.img.startsWith('/') ? item.img : `/${item.img}`}
                             />
                         </CardBody>
                         <CardFooter className="text-small justify-between">

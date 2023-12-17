@@ -76,9 +76,9 @@ const CommunityPage = () => {
                 style={{
                     color: '#000',
                     fontFamily: 'Georgia',
-                    fontSize: '26px',
+                    fontSize: '42px',
                     fontStyle: 'normal',
-                    fontWeight: 400,
+                    fontWeight: 700,
                     lineHeight: '24px',
                     paddingLeft: '124px', 
                     paddingTop: '110px',
