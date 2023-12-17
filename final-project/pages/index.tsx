@@ -483,7 +483,7 @@ export default function Home() {
                             lineHeight: '24px',
                         }}
                     >
-                        Learn More
+                        Our Community
                     </Button>
                 </Link>
                 </div>
