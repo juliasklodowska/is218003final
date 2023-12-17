@@ -2,31 +2,29 @@ import Head from 'next/head';
 import React from 'react';
 import { Navbar } from '../components/navbar'; 
 import Footer from '../components/footer';
+import Image from 'next/image';
 
 const CommunityPage = () => {
     return (
         <div>
+            <Head>
+                <title>Community</title>
+                <meta name="description" content="Cottage Comfort Café Community is a place where we come together to share kindness and support, making a positive impact on our local community." />
+                <link rel="icon" href="/images/logo.png"/>
+            </Head>
 
-        <Head>
-            <title>Community</title>
-            <meta name="description" content="Cottage Comfort Café Community is a place where we come together to share kindness and support, making a positive impact on our local community." />
-            <link rel="icon" href="../images/logo.png"/>
-        </Head>
-
-            
             <Navbar />
 
-            {/* Family Section */}
-            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
-                <img
-                    src="../images/giving.webp"
-                    alt="Community Giving Back Image"
-                    style={{
-                        width: '50%',
-                        height: '613px',
-                        objectFit: 'cover',
-                    }}
-                />
+             {/* Family Section */}
+             <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
+                <div style={{ width: '50%', height: '613px', position: 'relative' }}>
+                    <Image
+                        src="/images/giving.webp"
+                        alt="Community Giving Back Image"
+                        layout='fill'
+                        objectFit='cover'
+                    />
+                </div>
 
                 <section
                     style={{
@@ -109,19 +107,15 @@ const CommunityPage = () => {
                         alignItems: 'center',
                     }}
                 >
-                    {/* Image on the left side */}
-                    <img
-                        src="../images/fooddrive.webp" 
-                        alt="Food Drive Image"
-                        style={{
-                            width: '50%', 
-                            height: '100%', 
-                            objectFit: 'cover',
-                            marginLeft: '24px', 
-                            margin: '0',
-                            borderRadius: '14px',
-                        }}
-                    />
+                   {/* Image on the left side */}
+                   <div style={{ width: '50%', height: '100%', position: 'relative' }}>
+                        <Image
+                            src="/images/fooddrive.webp"
+                            alt="Food Drive Image"
+                            layout='fill'
+                            objectFit='cover'
+                        />
+                    </div>
 
                     {/* Text on the right side */}
                     <div
@@ -198,18 +192,14 @@ const CommunityPage = () => {
                     }}
                 >
                     {/* Image on the left side */}
-                    <img
-                        src="../images/garden.webp" 
-                        alt="Gardening Image"
-                        style={{
-                            width: '50%', 
-                            height: '100%', 
-                            objectFit: 'cover',
-                            marginLeft: '24px', 
-                            margin: '0',
-                            borderRadius: '14px',
-                        }}
-                    />
+                    <div style={{ width: '50%', height: '100%', position: 'relative' }}>
+                        <Image
+                            src="/images/garden.webp"
+                            alt="Gardening Image"
+                            layout='fill'
+                            objectFit='cover'
+                        />
+                    </div>
 
                     {/* Text on the right side */}
                     <div
