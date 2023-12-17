@@ -4,7 +4,7 @@ import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { useRouter } from 'next/router';
 import "@/styles/globals.css";
 import Script from "next/script";
-import CookieConsent from '../components/cookieconsent'; // Make sure the path matches the location of your component
+import CookieConsent from '../components/cookieconsent'; 
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -26,7 +26,8 @@ export default function App({ Component, pageProps }: AppProps) {
       </Script>
 
       <NextUIProvider navigate={router.push}>
-        <NextThemesProvider>
+        {/* Setting the default theme to light and disabling system theme detection */}
+        <NextThemesProvider defaultTheme="light" enableSystem={false}>
           <Component {...pageProps} />
         </NextThemesProvider>
       </NextUIProvider>
