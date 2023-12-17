@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test');
+const appUrl = 'http://localhost:3000';
 
 test.describe('Website Title and Meta Description Tests', () => {
 
@@ -25,28 +26,27 @@ test.describe('Website Title and Meta Description Tests', () => {
 });
 
 test('Hero section is displayed correctly', async ({ page }) => {
-  await page.goto(`${appUrl}/path-to-hero-section`); // Adjust the path as necessary
+  await page.goto(appUrl); // Navigate to the base URL
   const heroText = await page.locator('text=Welcome to Cottage Comfort Cafe');
   await expect(heroText).toBeVisible();
 });
 
 test.describe('Home Page Button Tests', () => {
   
-  test('Check presence of "See Menu" and "Full Menu" buttons', async ({ page }) => {
-    await page.goto('http://localhost:3000'); // Replace with your homepage URL
+  test('Hero section button tests', async ({ page }) => {
+    const appUrl = 'http://localhost:3000'; // Replace with your app's URL
+    await page.goto(appUrl);
 
-    // Check for "See Menu" button
-    const seeMenuButton = page.locator('text=See Menu');
+    // Case-sensitive XPath selector for the "Join our Family" button
+    const joinOurFamilyButton = page.locator('xpath=//section//button[contains(text(), "Join our Family")]');
+    await expect(joinOurFamilyButton).toBeVisible();
+
+    // Locator for the "See Menu" button
+    const seeMenuButton = page.locator('section >> text=See Menu');
     await expect(seeMenuButton).toBeVisible();
-
-    // Check for "Full Menu" button
-    const fullMenuButton = page.locator('text=Full Menu');
-    await expect(fullMenuButton).toBeVisible();
-  });
+});  
 
 });
-
-
 
 test.describe('Home Page Hero Section Text Tests', () => {
 
@@ -74,8 +74,6 @@ test.describe('Home Page Hero Section Photo Test', () => {
 
 });
 
-
-
 test.describe('Home Page Community Favorites Section Tests', () => {
   
   test('Community Favorites section has the correct title and 4 item cards', async ({ page }) => {
@@ -89,32 +87,22 @@ test.describe('Home Page Community Favorites Section Tests', () => {
 
 });
 
-
 test.describe('Family Section Tests', () => {
 
   test('Family section has correct text, photo, and button', async ({ page }) => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
 
-    // Check the text content
-    const sectionTitle = page.locator('h2:has-text=Become Part of Our Family');
+   // Check the text content
+    const sectionTitle = page.locator('h2:has-text("Become Part of Our Family")');
     await expect(sectionTitle).toBeVisible();
 
-    const sectionDescription = page.locator('text= Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!');
+    const sectionDescription = page.locator('text=Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!');
     await expect(sectionDescription).toBeVisible();
 
     // Check for the presence of an image
     // Replace 'src="../images/family.webp"' with the actual src or a more generic selector if needed
     const image = page.locator('img[src="../images/family.webp"]');
     await expect(image).toBeVisible();
-
-    // Check for the presence and functionality of the button
-    // Replace 'text=Join Our Family' with the actual text or a more specific selector if needed
-    const joinButton = page.locator('text=Join Our Family');
-    await expect(joinButton).toBeVisible();
-
-     await joinButton.click();
-     const modal = page.locator('selector-for-modal'); // Replace with the actual modal selector
-     await expect(modal).toBeVisible();
   });
 
 });

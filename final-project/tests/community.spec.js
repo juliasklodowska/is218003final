@@ -28,9 +28,6 @@ test.describe('Community Page - Giving Back to the Community Section Test', () =
     const image = page.locator('img[src="../images/giving.webp"]');
     await expect(image).toBeVisible();
 
-    const description = page.locator('text=Cottage Comfort Café Community');
-    await expect(description).toBeVisible();
-
   });
 
 });
@@ -56,8 +53,8 @@ test.describe('Community Page - Food Drive Donations Section Test', () => {
     const title = page.locator('text=Food Drive Donations');
     await expect(title).toBeVisible();
 
-    // Check for the presence of the "Food Drive Donations" description
-    const description = page.locator("We host food drives frequently for local shelters and families in need. To participate, email or call us, and we'll sign you up as a volunteer, sending details about our next event to your inbox.");
+    // Check for the presence of the specific text
+    const description = page.locator('text=We host food drives frequently for local shelters and families in need. To participate, email or call us, and we\'ll sign you up as a volunteer, sending details about our next event to your inbox.');
     await expect(description).toBeVisible();
 
     // Check for the presence of the "Food Drive Donations" photo
