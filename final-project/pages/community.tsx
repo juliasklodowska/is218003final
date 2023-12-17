@@ -16,7 +16,7 @@ const CommunityPage = () => {
             <Navbar />
 
              {/* Family Section */}
-             <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
                 <div style={{ width: '50%', height: '613px', position: 'relative' }}>
                     <Image
                         src="/images/giving.webp"
@@ -65,10 +65,11 @@ const CommunityPage = () => {
                             margin: '24px 0',
                         }}
                     >
-                        Cottage Comfort Café pulses with community spirit. Join us monthly for 'Caring Cup Day'—our hosted day of charity, donations, or community service. Together, we make a difference—one cup, one cause, one community at a time.
+                        Cottage Comfort Café pulses with community spirit. Join us monthly for &apos;Caring Cup Day&apos;—our hosted day of charity, donations, or community service. Together, we make a difference—one cup, one cause, one community at a time.
                     </p>
                 </section>
             </div>
+
             {/* End of Family Section */}
 
             {/* "Events" Title */}
@@ -150,7 +151,7 @@ const CommunityPage = () => {
                                 marginTop: '54px'
                             }}
                         >
-                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we&apos;ll sign you up as a volunteer, sending details about our next event to your inbox.
+                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we will sign you up as a volunteer, sending details about our next event to your inbox.
                         </p>
                         <p
                             style={{

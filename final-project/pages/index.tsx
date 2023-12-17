@@ -213,77 +213,76 @@ export default function Home() {
 
         {/* Family Section */}
         <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
-          <img
-            src="../images/family.webp"
-            alt="Family Image"
-            style={{
-              width: '50%',
-              height: '613px',
-              objectFit: 'cover',
-            }}
-          />
-
-          <section
-            style={{
-              height: '613px',
-              backgroundColor: '#312107',
-              width: '888px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              flexDirection: 'column',
-              padding: '0 32px',
-            }}
-          >
-            <h2
-              style={{
-                color: '#FFF',
-                textAlign: 'center',
-                fontFamily: 'Georgia',
-                fontSize: '42px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-                margin: '0',
-              }}
-            >
-              Become Part of Our Family
-            </h2>
-            <p
-              style={{
-                color: '#F4F4F5',
-                textAlign: 'center',
-                fontFamily: 'Georgia',
-                fontSize: '22px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-                margin: '24px 0',
-              }}
-            >
-              Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
-            </p>
-            <div style={{ marginTop: '32px', textAlign: 'center' }}>
-            <Link href="/join" passHref>
-              <Button
-                color="warning"
-                size="lg"
-                variant="solid"
-                style={{
-                  fontFamily: 'Georgia',
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  fontWeight: 'bold',
-                  lineHeight: '24px',
-                }}
-              >
-                Join Our Family
-              </Button>
-              </Link>
+            <div style={{ width: '50%', height: '613px', position: 'relative' }}>
+                <Image
+                    src="/images/family.webp"
+                    alt="Family Image"
+                    layout='fill'
+                    objectFit='cover'
+                />
             </div>
-          </section>
+            <section
+                style={{
+                    height: '613px',
+                    backgroundColor: '#312107',
+                    width: '888px',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    flexDirection: 'column',
+                    padding: '0 32px',
+                }}
+            >
+                <h2
+                    style={{
+                        color: '#FFF',
+                        textAlign: 'center',
+                        fontFamily: 'Georgia',
+                        fontSize: '42px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '53px',
+                        margin: '0',
+                    }}
+                >
+                    Become Part of Our Family
+                </h2>
+                <p
+                    style={{
+                        color: '#F4F4F5',
+                        textAlign: 'center',
+                        fontFamily: 'Georgia',
+                        fontSize: '22px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '53px',
+                        margin: '24px 0',
+                    }}
+                >
+                    Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
+                </p>
+                <div style={{ marginTop: '32px', textAlign: 'center' }}>
+                <Link href="/join" passHref>
+                    <Button
+                        color="warning"
+                        size="lg"
+                        variant="solid"
+                        style={{
+                            fontFamily: 'Georgia',
+                            fontSize: '16px',
+                            fontStyle: 'normal',
+                            fontWeight: 'bold',
+                            lineHeight: '24px',
+                        }}
+                    >
+                        Join Our Family
+                    </Button>
+                </Link>
+                </div>
+            </section>
         </div>
         {/* End of Family Section */}
+
 
         {/* Testimonial Section */}
         <section
@@ -430,77 +429,76 @@ export default function Home() {
         
         {/* Community Section */}
         <div style={{ display: 'flex', justifyContent: 'flex-start', alignItems: 'center', width: '100%' }}>
-          <section
-            style={{
-              height: '613px',
-              backgroundColor: '#312107',
-              width: '888px',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              flexDirection: 'column',
-              padding: '0 32px',
-            }}
-          >
-            <h2
-              style={{
-                color: '#FFF',
-                textAlign: 'center',
-                fontFamily: 'Georgia',
-                fontSize: '42px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-                margin: '0',
-              }}
-            >
-              Nurturing the Community
-            </h2>
-            <p
-              style={{
-                color: '#F4F4F5',
-                textAlign: 'center',
-                fontFamily: 'Georgia',
-                fontSize: '22px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-                margin: '24px 0',
-              }}
-            >
-              At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.
-            </p>
-            <div style={{ marginTop: '32px', textAlign: 'center' }}>
-            <Link href="/community" passHref>
-              <Button
-                color="warning"
-                size="lg"
-                variant="bordered"
+            <section
                 style={{
-                  fontFamily: 'Georgia',
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  fontWeight: 'bold',
-                  lineHeight: '24px',
+                    height: '613px',
+                    backgroundColor: '#312107',
+                    width: '888px',
+                    display: 'flex',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    flexDirection: 'column',
+                    padding: '0 32px',
                 }}
-              >
-                Learn More
-              </Button>
-              </Link>
+            >
+                <h2
+                    style={{
+                        color: '#FFF',
+                        textAlign: 'center',
+                        fontFamily: 'Georgia',
+                        fontSize: '42px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '53px',
+                        margin: '0',
+                    }}
+                >
+                    Nurturing the Community
+                </h2>
+                <p
+                    style={{
+                        color: '#F4F4F5',
+                        textAlign: 'center',
+                        fontFamily: 'Georgia',
+                        fontSize: '22px',
+                        fontStyle: 'normal',
+                        fontWeight: 400,
+                        lineHeight: '53px',
+                        margin: '24px 0',
+                    }}
+                >
+                    At Cottage Comfort Café, we&apos;re committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we&apos;ve received from every smiling face that walks through our doors.
+                </p>
+                <div style={{ marginTop: '32px', textAlign: 'center' }}>
+                <Link href="/community" passHref>
+                    <Button
+                        color="warning"
+                        size="lg"
+                        variant="bordered"
+                        style={{
+                            fontFamily: 'Georgia',
+                            fontSize: '16px',
+                            fontStyle: 'normal',
+                            fontWeight: 'bold',
+                            lineHeight: '24px',
+                        }}
+                    >
+                        Learn More
+                    </Button>
+                </Link>
+                </div>
+            </section>
+            <div style={{ width: '50%', height: '613px', position: 'relative' }}>
+                <Image
+                    src="/images/community.webp"
+                    alt="Community Image"
+                    layout='fill'
+                    objectFit='cover'
+                />
             </div>
-          </section>
-          <img
-            src="../images/community.webp"
-            alt="Community Image"
-            style={{
-              width: '50%',
-              height: '613px',
-              objectFit: 'cover',
-            }}
-          />
-
         </div>
         {/* End of Community Section */}
+
 
         {/* Space between Community Section  and Hours and Location Section*/}
         <div style={{ height: '110px' }}></div>
@@ -526,15 +524,13 @@ export default function Home() {
 
           {/* Image Container */}
           <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
-            <div style={{ position: 'relative', maxWidth: '30%', marginRight: '25px', marginBottom: '110px' }}>
-              <img
-                src="../images/map.webp" 
-                alt="Hours and Location"
-                style={{
-                  width: '100%', 
-                  height: 'auto',
-                }}
-              />
+          <div style={{ position: 'relative', maxWidth: '550px', width: '100%', height: '436px', marginRight: '25px', marginBottom: '110px' }}> {/* Adjust dimensions as needed */}
+                        <Image
+                            src="/images/map.webp"
+                            alt="Hours and Location"
+                            layout='fill'
+                            objectFit='contain' 
+                        />
               {/* Button */}
               <Link href="https://www.google.com/maps/place/Newark,+NJ/@40.7313841,-74.2646284,12z/data=!3m1!4b1!4m6!3m5!1s0x89c25370329a0e1d:0xe1bcdc2adcfee473!8m2!3d40.735657!4d-74.1723667!16zL20vMGhwdG0?entry=ttu" passHref>
               <Button
