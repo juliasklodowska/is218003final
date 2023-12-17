@@ -27,7 +27,7 @@
 
 ## Final Website
 
-**[Cottage Comfort Cafe](is218003-final-212z8xsz2-valeries-projects.vercel.app)**
+**[Cottage Comfort Cafe](https://is218003-final-mzzq8heda-valeries-projects.vercel.app/)**
 
 
 
