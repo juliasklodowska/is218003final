@@ -150,7 +150,8 @@ const CommunityPage = () => {
                                 marginTop: '54px'
                             }}
                         >
-                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we'll sign you up as a volunteer, sending details about our next event to your inbox.
+                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we&apos;ll sign you up as a volunteer, sending details about our next event to your inbox.
+
                         </p>
                         <p
                             style={{
