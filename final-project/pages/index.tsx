@@ -489,12 +489,14 @@ export default function Home() {
               </Link>
             </div>
           </section>
-          <Image
-            src="/images/community.webp"
-            alt="Family Image"
-            layout="responsive"
-            width={549}
-            height={613}
+          <img
+            src="../images/community.webp"
+            alt="Community Image"
+            style={{
+              width: '50%',
+              height: '613px',
+              objectFit: 'cover',
+            }}
           />
 
         </div>
