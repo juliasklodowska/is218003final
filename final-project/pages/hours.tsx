@@ -30,7 +30,7 @@ const HoursAndLocationPage = () => {
               lineHeight: '53px',
               paddingTop: '72px'
             }}
-          >
+          > 
             Hours and Location
           </h2>
 

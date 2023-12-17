@@ -18,7 +18,7 @@ export default function Home() {
       img: "/images/latte.webp",
       price: "$4.50",
     },
-    {
+    { 
       title: "Garden Hug Matcha",
       img: "/images/matcha.webp",
       price: "$6.50",
@@ -40,19 +40,19 @@ export default function Home() {
       name: "Maya Singh",
       role: "Loyal Customer",
       imageSrc: "/images/maya.webp",
-      content: "“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”",
+      content: '“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”',
     },
     {
       name: "Oliver Smith",
       role: "Loyal Customer",
       imageSrc: "/images/oliver.webp",
-      content: "“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”",
+      content: '“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”',
     },
     {
       name: "Elena Perez",
       role: "Loyal Customer",
       imageSrc: "/images/elena.webp",
-      content: "“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”",
+      content: '“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”',
     },
   ];
 
@@ -88,7 +88,7 @@ export default function Home() {
           }}
         >
           <Image
-            src='/images/hero_image.webp' 
+            src='/images/hero_image.webp'
             alt="Hero Image Overlay"
             layout='fill'
             objectFit='cover'
@@ -317,12 +317,12 @@ export default function Home() {
             {testimonialData.slice(0, 2).map((item, index) => (
               <Card className="max-w-[400px]" key={index}>
                 <CardHeader className="flex gap-3">
-                  <Image
-                    alt={item.name}
-                    height={40}
-                    src={item.imageSrc}
-                    width={40}
-                  />
+                <Image
+                  alt={item.name}
+                  height={40}
+                  src={item.imageSrc}
+                  width={40}
+                />
                   <div className="flex flex-col">
                     <p
                       style={{
@@ -489,15 +489,14 @@ export default function Home() {
               </Link>
             </div>
           </section>
-          <img
-            src="../images/community.webp"
+          <Image
+            src="/images/community.webp"
             alt="Family Image"
-            style={{
-              width: '50%',
-              height: '613px',
-              objectFit: 'cover',
-            }}
+            layout="responsive"
+            width={549}
+            height={613}
           />
+
         </div>
         {/* End of Community Section */}
 

@@ -84,7 +84,7 @@ const CommunityPage = () => {
                     paddingTop: '110px',
                     paddingBottom: '64px'
                 }}
-            >
+            > 
                 Events
             </h2>
 
