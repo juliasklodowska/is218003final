@@ -2,11 +2,11 @@ import Head from 'next/head';
 import styles from '../styles/index.module.css';
 import { Navbar } from '../components/navbar';
 import Footer from '../components/footer';
-import { Button, Card, CardBody, CardFooter, Image, CardHeader } from "@nextui-org/react"; 
+import { Button, Card, CardBody, CardFooter, Image as NextUIImage, CardHeader } from "@nextui-org/react"; 
 import Link from 'next/link';
 import React, { useState } from 'react';
 import Modal from '../components/modal';
-
+import Image from 'next/image'; 
 
 export default function Home() {
 
@@ -15,22 +15,22 @@ export default function Home() {
   const list = [
     {
       title: "Nurture Nut Latte",
-      img: "../images/latte.webp",
+      img: "/images/latte.webp",
       price: "$4.50",
     },
     {
       title: "Garden Hug Matcha",
-      img: "../images/matcha.webp",
+      img: "/images/matcha.webp",
       price: "$6.50",
     },
     {
       title: "Compassion Cappuccino",
-      img: "../images/cappuccino.webp",
+      img: "/images/cappuccino.webp",
       price: "$3.75",
     },
     {
       title: "Meadow Mint Mocha",
-      img: "../images/mocha.webp",
+      img: "/images/mocha.webp",
       price: "$5.50",
     },
   ];
@@ -39,19 +39,19 @@ export default function Home() {
     {
       name: "Maya Singh",
       role: "Loyal Customer",
-      imageSrc: "../images/maya.webp",
+      imageSrc: "/images/maya.webp",
       content: "“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”",
     },
     {
       name: "Oliver Smith",
       role: "Loyal Customer",
-      imageSrc: "../images/oliver.webp",
+      imageSrc: "/images/oliver.webp",
       content: "“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”",
     },
     {
       name: "Elena Perez",
       role: "Loyal Customer",
-      imageSrc: "../images/elena.webp",
+      imageSrc: "/images/elena.webp",
       content: "“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”",
     },
   ];
@@ -87,88 +87,43 @@ export default function Home() {
             position: 'relative',
           }}
         >
-          <img
-            src='../images/hero_image.webp' 
+          <Image
+            src='/images/hero_image.webp' 
             alt="Hero Image Overlay"
+            layout='fill'
+            objectFit='cover'
+          />
+          <div
             style={{
               position: 'absolute',
               top: 0,
               left: 0,
               width: '100%',
               height: '100%',
-              objectFit: 'cover',
-            }}
-          />
-          <div
-            style={{
-              textAlign: 'center',
-              position: 'relative',
-              zIndex: 1,
+              display: 'flex',
+              flexDirection: 'column', // Stack children vertically
+              justifyContent: 'center', // Center vertically
+              alignItems: 'center', // Center horizontally
+              textAlign: 'center', // Ensure text is centered
             }}
           >
-            <h1
-              className={styles.title}
-              style={{
-                color: '#FFF',
-                fontFamily: 'Georgia',
-                fontSize: '42px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-              }}
-            >
+            <h1 className={styles.title} style={{ color: '#FFF', fontFamily: 'Georgia', fontSize: '42px', fontStyle: 'normal', fontWeight: 400, lineHeight: '53px' }}>
               Welcome to Cottage Comfort Cafe
             </h1>
-            <p
-              className={styles.description}
-              style={{
-                color: '#FFF',
-                fontFamily: 'Georgia',
-                fontSize: '26px',
-                fontStyle: 'normal',
-                fontWeight: 400,
-                lineHeight: '53px',
-              }}
-            >
+            <p className={styles.description} style={{ color: '#FFF', fontFamily: 'Georgia', fontSize: '26px', fontStyle: 'normal', fontWeight: 400, lineHeight: '53px' }}>
               Home in Every Sip - Free Drink Upon Joining!
             </p>
-            {/* Buttons with margin */}
             <div style={{ marginTop: '32px' }}>
-            <Button
-              color="warning"
-              size="lg"
-              variant="solid"
-              style={{
-                  fontFamily: 'Georgia',
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  fontWeight: 'bold',
-                  lineHeight: '24px',
-                  marginRight: '32px',
-                }}
-                onClick={() => setModalOpen(true)} // Set state to open the modal
-              >
+              {/* Buttons */}
+              <Button color="warning" size="lg" variant="solid" style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 'bold', lineHeight: '24px', marginRight: '32px' }} onClick={() => setModalOpen(true)}>
                 Join our Family
               </Button>
-            <Link href="/menu" passHref>
-              <Button
-                color="warning"
-                size="lg"
-                variant="bordered"
-                style={{
-                  fontFamily: 'Georgia',
-                  fontSize: '16px',
-                  fontStyle: 'normal',
-                  fontWeight: 'bold',
-                  lineHeight: '24px',
-                  borderWidth: '2px',
-                }}
-              >
-                See Menu
-              </Button>
+              <Link href="/menu" passHref>
+                <Button color="warning" size="lg" variant="bordered" style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 'bold', lineHeight: '24px', borderWidth: '2px' }}>
+                  See Menu
+                </Button>
               </Link>
             </div>
-            {/* End of Buttons */}
           </div>
         </section>
         {/* End of Hero Section */}
@@ -230,17 +185,17 @@ export default function Home() {
             marginRight: '124px', // Add right margin to match the title
           }}
         >
-          <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
-            {list.map((item) => (
-              <Card shadow="sm">
+            <div className="gap-2 grid grid-cols-2 sm:grid-cols-4">
+            {list.map((item, index) => (
+              <Card key={index} shadow="sm">
                 <CardBody className="overflow-visible p-0">
-                  <Image
+                  <NextUIImage
                     shadow="sm"
                     radius="lg"
                     width="100%"
                     alt={item.title}
                     className="w-full object-cover h-[140px]"
-                    src={item.img}
+                    src={item.img.startsWith('/') ? item.img : `/${item.img}`}
                   />
                 </CardBody>
                 <CardFooter className="text-small justify-between">
@@ -365,7 +320,6 @@ export default function Home() {
                   <Image
                     alt={item.name}
                     height={40}
-                    radius="lg"
                     src={item.imageSrc}
                     width={40}
                   />
@@ -423,7 +377,6 @@ export default function Home() {
                   <Image
                     alt={item.name}
                     height={40}
-                    radius="lg"
                     src={item.imageSrc}
                     width={40}
                   />
