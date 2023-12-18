@@ -115,9 +115,11 @@ export default function Home() {
             </p>
             <div style={{ marginTop: '32px' }}>
               {/* Buttons */}
-              <Button color="warning" size="lg" variant="solid" style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 'bold', lineHeight: '24px', marginRight: '32px' }} onClick={() => setModalOpen(true)}>
-                Join our Family
-              </Button>
+              <Link href="http://eepurl.com/iF-z02" passHref>
+                <Button color="warning" size="lg" variant="solid" style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 'bold', lineHeight: '24px', marginRight: '32px' }}>
+                  Join our Family
+                </Button>
+              </Link>
               <Link href="/menu" passHref>
                 <Button color="warning" size="lg" variant="bordered" style={{ fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 'bold', lineHeight: '24px', borderWidth: '2px' }}>
                   See Menu
@@ -262,20 +264,21 @@ export default function Home() {
                     Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
                 </p>
                 <div style={{ marginTop: '32px', textAlign: 'center' }}>
+                  <Link href="http://eepurl.com/iF-z02" passHref>
                     <Button
-                        color="warning"
-                        size="lg"
-                        variant="solid"
-                        style={{
-                            fontFamily: 'Georgia',
-                            fontSize: '16px',
-                            fontStyle: 'normal',
-                            fontWeight: 'bold',
-                            lineHeight: '24px',
-                        }}
-                        onClick={() => setModalOpen(true)}>
-                        Join Our Family
+                      color="warning"
+                      size="lg"
+                      variant="solid"
+                      style={{
+                        fontFamily: 'Georgia',
+                        fontSize: '16px',
+                        fontStyle: 'normal',
+                        fontWeight: 'bold',
+                        lineHeight: '24px',
+                      }}>
+                      Join Our Family
                     </Button>
+                  </Link>
                 </div>
             </section>
         </div>
