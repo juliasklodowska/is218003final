@@ -262,7 +262,6 @@ export default function Home() {
                     Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!
                 </p>
                 <div style={{ marginTop: '32px', textAlign: 'center' }}>
-                <Link href="/join" passHref>
                     <Button
                         color="warning"
                         size="lg"
@@ -274,10 +273,9 @@ export default function Home() {
                             fontWeight: 'bold',
                             lineHeight: '24px',
                         }}
-                    >
+                        onClick={() => setModalOpen(true)}>
                         Join Our Family
                     </Button>
-                </Link>
                 </div>
             </section>
         </div>
