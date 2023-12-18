@@ -3,6 +3,7 @@ import React from 'react';
 import { Navbar } from '../components/navbar'; 
 import Footer from '../components/footer'; 
 import { Button } from "@nextui-org/react";
+import Image from 'next/image';
 
 const HoursAndLocationPage = () => {
     return (
@@ -25,11 +26,11 @@ const HoursAndLocationPage = () => {
               fontFamily: 'Georgia',
               fontSize: '42px',
               fontStyle: 'normal',
-              fontWeight: 400,
+              fontWeight: 700,
               lineHeight: '53px',
               paddingTop: '72px'
             }}
-          >
+          > 
             Hours and Location
           </h2>
 
@@ -37,35 +38,32 @@ const HoursAndLocationPage = () => {
           <div style={{ height: '91px' }}></div>
 
           {/* Image Container */}
-          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start' }}>
-            <div style={{ position: 'relative', maxWidth: '30%', marginRight: '25px', marginBottom: '110px' }}>
-              <img
-                src="../images/map.png" 
-                alt="Hours and Location"
-                style={{
-                  width: '100%', 
-                  height: 'auto',
-                }}
-              />
-              {/* Button */}
-              <Button
-                color="warning"
-                size="md"
-                variant="shadow"
-                style={{
-                  position: 'absolute', 
-                  bottom: '10px', 
-                  right: '10px',
-                  fontFamily: 'Georgia',
-                  fontSize: '14px',
-                  fontStyle: 'normal',
-                  fontWeight: 'normal',
-                  lineHeight: '24px',
-                }}
-              >
-                Get Directions
-              </Button>
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'start', width: '100%', padding: '0 25px' }}>
+                    <div style={{ position: 'relative', maxWidth: '550px', width: '100%', height: '436px', marginRight: '25px', marginBottom: '110px' }}> {/* Adjust dimensions as needed */}
+                        <Image
+                            src="/images/map.webp"
+                            alt="Hours and Location"
+                            layout='fill'
+                            objectFit='contain' 
+                        />
+                        <Button
+                            color="warning"
+                            size="md"
+                            variant="shadow"
+                            style={{
+                                position: 'absolute',
+                                bottom: '10px',
+                                right: '10px',
+                                fontFamily: 'Georgia',
+                                fontSize: '14px',
+                                fontStyle: 'normal',
+                                fontWeight: 'normal',
+                                lineHeight: '24px',
+                            }}
+                        >
+                            Get Directions
+                        </Button>
+                    </div>
 
             {/* Location Column */}
             <div style={{ color: '#000', fontFamily: 'Georgia', fontSize: '16px', fontStyle: 'normal', fontWeight: 400, lineHeight: '35px', marginRight: '100px'}}>
@@ -89,6 +87,9 @@ const HoursAndLocationPage = () => {
             </div>
           </div>
         </section>
+
+        {/* Space between title and content */}
+        <div style={{ height: '91px' }}></div>
 
         {/* End of Hours and Location Section */}
             <Footer />

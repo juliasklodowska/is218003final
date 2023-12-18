@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { CSSProperties } from 'react';
+import Link from 'next/link'; // Import Link from next/link
 
 const CookieConsent = () => {
   const [visible, setVisible] = useState(false);
@@ -21,7 +22,9 @@ const CookieConsent = () => {
   return (
     <div style={styles.cookieConsentContainer}>
       <p style={styles.cookieConsentText}>
-      Our website uses cookies to enhance your browsing experience and make your visit warmer and more personal. See our Privacy Policy for more details. {' '}
+        Our website uses cookies to enhance your browsing experience and make your visit warmer and more personal. See our 
+        <Link href="/privacy" style={styles.privacyLink}>Privacy Policy</Link>
+        for more details.{' '}
         <button style={styles.cookieConsentButton} onClick={acceptCookies}>
           I Understand
         </button>
@@ -60,6 +63,14 @@ const styles: Record<string, CSSProperties> = {
     cursor: 'pointer',
     fontSize: '14px',
   },
+  privacyLink: {
+    color: '#009EFF',
+    textDecoration: 'underline', 
+    marginLeft: '5px', 
+    marginRight: '5px',
+  },
 };
 
 export default CookieConsent;
+
+

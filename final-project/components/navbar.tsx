@@ -6,8 +6,9 @@ import {
 } from "@nextui-org/react";
 import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
-import ModalComponent from "./modal"; // Import the modal component
-import React, { useState } from 'react'; // Import React and useState
+import ModalComponent from "./modal"; 
+import React, { useState } from 'react'; 
+import Link from 'next/link';
 
 export const Navbar = () => {
   const router = useRouter();
@@ -51,9 +52,11 @@ export const Navbar = () => {
 
       {/* Join Now Button */}
       <div className="col-span-2 flex justify-end items-center">
-        <Button size="lg" variant="shadow" color="warning" onClick={openModal}>
-          Join Now
-        </Button>
+        <Link href="http://eepurl.com/iF-z02" passHref>
+          <Button size="lg" variant="shadow" color="warning">
+            Join Now
+          </Button>
+        </Link>
       </div>
 
       {/* Render the modal component */}

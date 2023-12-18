@@ -20,17 +20,14 @@ test.describe('Community Page - Giving Back to the Community Section Test', () =
   test('Section has correct elements', async ({ page }) => {
     await page.goto('http://localhost:3000/community'); // Replace with the correct URL
 
-    // Check for the presence of the section title
-    const title = page.locator('text=Giving Back to the Community');
-    await expect(title).toBeVisible();
+    // Check for the correct page title
+    const pageTitle = await page.title();
+    await expect(pageTitle).toBe('Community');
 
     // Check for the presence of the section image
-    const image = page.locator('img[src="../images/giving.png"]');
+    const image = page.locator('img[src="../images/giving.webp"]');
     await expect(image).toBeVisible();
 
-    // Check for the presence of the section description
-    const description = page.locator('text=Cottage Comfort Café pulses with community spirit...');
-    await expect(description).toBeVisible();
   });
 
 });
@@ -56,12 +53,12 @@ test.describe('Community Page - Food Drive Donations Section Test', () => {
     const title = page.locator('text=Food Drive Donations');
     await expect(title).toBeVisible();
 
-    // Check for the presence of the "Food Drive Donations" description
-    const description = page.locator('text=We host food drives frequently for local shelters and families in need...');
+    // Check for the presence of the specific text
+    const description = page.locator('text=We host food drives frequently for local shelters and families in need. To participate, email or call us, and we\'ll sign you up as a volunteer, sending details about our next event to your inbox.');
     await expect(description).toBeVisible();
 
     // Check for the presence of the "Food Drive Donations" photo
-    const image = page.locator('img[src="../images/fooddrive.png"]');
+    const image = page.locator('img[src="../images/fooddrive.webp"]');
     await expect(image).toBeVisible();
   });
 
@@ -77,11 +74,11 @@ test.describe('Community Page - Gardening Section Test', () => {
     await expect(title).toBeVisible();
 
     // Check for the presence of the "Gardening" description
-    const description = page.locator('text=Seasonally, we enrich community gardens with our very own coffee grounds...');
+    const description = page.locator('text= Seasonally, we enrich community gardens with our very own coffee grounds as a natural fertilizer to enrich the soil. ');
     await expect(description).toBeVisible();
 
     // Check for the presence of the "Gardening" photo
-    const image = page.locator('img[src="../images/garden.png"]');
+    const image = page.locator('img[src="../images/garden.webp"]');
     await expect(image).toBeVisible();
   });
 

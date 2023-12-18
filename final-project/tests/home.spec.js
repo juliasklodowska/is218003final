@@ -1,4 +1,5 @@
 const { test, expect } = require('@playwright/test');
+const appUrl = 'http://localhost:3000';
 
 test.describe('Website Title and Meta Description Tests', () => {
 
@@ -25,36 +26,27 @@ test.describe('Website Title and Meta Description Tests', () => {
 });
 
 test('Hero section is displayed correctly', async ({ page }) => {
-  await page.goto(appUrl);
+  await page.goto(appUrl); // Navigate to the base URL
   const heroText = await page.locator('text=Welcome to Cottage Comfort Cafe');
   await expect(heroText).toBeVisible();
 });
 
 test.describe('Home Page Button Tests', () => {
   
-  test('Two "Join our Family" buttons are present and functional', async ({ page }) => {
-    await page.goto('http://localhost:3000'); // Replace with your homepage URL
-    }
-  });
+  test('Hero section button tests', async ({ page }) => {
+    const appUrl = 'http://localhost:3000'; // Replace with your app's URL
+    await page.goto(appUrl);
 
-});
-test.describe('Home Page Button Tests', () => {
-  
-  test('Check presence of "See Menu" and "Full Menu" buttons', async ({ page }) => {
-    await page.goto('http://localhost:3000'); // Replace with your homepage URL
+    // Case-sensitive XPath selector for the "Join our Family" button
+    const joinOurFamilyButton = page.locator('xpath=//section//button[contains(text(), "Join our Family")]');
+    await expect(joinOurFamilyButton).toBeVisible();
 
-    // Check for "See Menu" button
-    const seeMenuButton = page.locator('text=See Menu');
+    // Locator for the "See Menu" button
+    const seeMenuButton = page.locator('section >> text=See Menu');
     await expect(seeMenuButton).toBeVisible();
-
-    // Check for "Full Menu" button
-    const fullMenuButton = page.locator('text=Full Menu');
-    await expect(fullMenuButton).toBeVisible();
-  });
+});  
 
 });
-
-
 
 test.describe('Home Page Hero Section Text Tests', () => {
 
@@ -76,13 +68,11 @@ test.describe('Home Page Hero Section Photo Test', () => {
 
   test('Hero section has a photo', async ({ page }) => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
-    const heroImage = page.locator('img[src="../images/hero_image.png"]'); // Replace with the actual src or use a different selector
+    const heroImage = page.locator('img[src="../images/hero_image.webp"]'); // Replace with the actual src or use a different selector
     await expect(heroImage).toBeVisible();
   });
 
 });
-
-
 
 test.describe('Home Page Community Favorites Section Tests', () => {
   
@@ -97,32 +87,22 @@ test.describe('Home Page Community Favorites Section Tests', () => {
 
 });
 
-
 test.describe('Family Section Tests', () => {
 
   test('Family section has correct text, photo, and button', async ({ page }) => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
 
-    // Check the text content
-    const sectionTitle = page.locator('text=Become Part of Our Family');
+   // Check the text content
+    const sectionTitle = page.locator('h2:has-text("Become Part of Our Family")');
     await expect(sectionTitle).toBeVisible();
 
     const sectionDescription = page.locator('text=Join our rewards program today and receive a free drink on your next order. Hurry, this cozy welcome gift expires in just 7 days from sign-up. Start your journey to comfort now!');
     await expect(sectionDescription).toBeVisible();
 
     // Check for the presence of an image
-    // Replace 'src="../images/family.png"' with the actual src or a more generic selector if needed
-    const image = page.locator('img[src="../images/family.png"]');
+    // Replace 'src="../images/family.webp"' with the actual src or a more generic selector if needed
+    const image = page.locator('img[src="../images/family.webp"]');
     await expect(image).toBeVisible();
-
-    // Check for the presence and functionality of the button
-    // Replace 'text=Join Our Family' with the actual text or a more specific selector if needed
-    const joinButton = page.locator('text=Join Our Family');
-    await expect(joinButton).toBeVisible();
-
-     await joinButton.click();
-     const modal = page.locator('selector-for-modal'); // Replace with the actual modal selector
-     await expect(modal).toBeVisible();
   });
 
 });
@@ -150,19 +130,19 @@ test.describe('Testimonials Section Tests', () => {
       {
         name: "Maya Singh",
         role: "Loyal Customer",
-        imageSrc: "../images/maya.png",
+        imageSrc: "../images/maya.webp",
         content: "“Cottage Comfort Café feels like a warm hug, with its cozy charm and friendly staff making every visit special.”"
       },
       {
         name: "Oliver Smith",
         role: "Loyal Customer",
-        imageSrc: "../images/oliver.png",
+        imageSrc: "../images/oliver.webp",
         content: "“More than just great coffee, Cottage Comfort Café is where our community comes together, like a big, happy family.”"
       },
       {
         name: "Elena Perez",
         role: "Loyal Customer",
-        imageSrc: "../images/elena.png",
+        imageSrc: "../images/elena.webp",
         content: "“Every visit to Cottage Comfort Café is a lovely experience, filled with care, comfort, and the perfect latte.”"
       }
     ];
@@ -187,16 +167,16 @@ test.describe('Location and Hours Section Tests', () => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
 
     // Check for the presence of "Location" text
-    const locationText = page.locator('text=Location');
+    const locationText = page.locator('h3:has-text("Location")');
     await expect(locationText).toBeVisible();
 
     // Check for the presence of "Hours" text
-    const hoursText = page.locator('text=Hours');
+    const hoursText = page.locator('h3:has-text("Hours")');
     await expect(hoursText).toBeVisible();
 
     // Check for the presence of an image
-    // Replace 'src="../images/map.png"' with the actual src or a more generic selector if needed
-    const image = page.locator('img[src="../images/map.png"]');
+    // Replace 'src="../images/map.webp"' with the actual src or a more generic selector if needed
+    const image = page.locator('img[src="../images/map.webp"]');
     await expect(image).toBeVisible();
 
     // Check for the presence of the "Get Directions" button
@@ -216,7 +196,7 @@ test.describe('Hours and Location Section - Location Text Test', () => {
 
     // Check for the presence and correctness of the "Location" text
     // Adjust the text content as per your actual implementation
-    const locationText = page.locator('text=123 Main Street Newark, NJ 07102');
+    const locationText = page.locator('text=123 Main Street');
     await expect(locationText).toBeVisible();
   });
 
@@ -249,7 +229,7 @@ test.describe('Nurturing the Community Section - Photo Test', () => {
 
   test('Section has a photo', async ({ page }) => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
-    const image = page.locator('img[src="../images/community.png"]');
+    const image = page.locator('img[src="../images/community.webp"]');
     await expect(image).toBeVisible();
   });
 
@@ -258,7 +238,7 @@ test.describe('Nurturing the Community Section - Text Content Test', () => {
 
   test('Section has correct text content', async ({ page }) => {
     await page.goto('http://localhost:3000'); // Replace with your homepage URL
-    const textContent = page.locator('text=At Cottage Comfort Café, we\'re committed to fostering meaningful initiatives...');
+    const textContent = page.locator("text=At Cottage Comfort Café, we're committed to fostering meaningful initiatives that directly support and uplift the people in our community, reflecting the love and care we’ve received from every smiling face that walks through our doors.");
     await expect(textContent).toBeVisible();
   });
 

@@ -2,31 +2,29 @@ import Head from 'next/head';
 import React from 'react';
 import { Navbar } from '../components/navbar'; 
 import Footer from '../components/footer';
+import Image from 'next/image';
 
 const CommunityPage = () => {
     return (
         <div>
+            <Head>
+                <title>Community</title>
+                <meta name="description" content="Cottage Comfort Café Community is a place where we come together to share kindness and support, making a positive impact on our local community." />
+                <link rel="icon" href="/images/logo.png"/>
+            </Head>
 
-        <Head>
-            <title>Community</title>
-            <meta name="description" content="Cottage Comfort Café Community is a place where we come together to share kindness and support, making a positive impact on our local community." />
-            <link rel="icon" href="../images/logo.png"/>
-        </Head>
-
-            
             <Navbar />
 
-            {/* Family Section */}
+             {/* Family Section */}
             <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', width: '100%' }}>
-                <img
-                    src="../images/giving.png"
-                    alt="Community Giving Back Image"
-                    style={{
-                        width: '50%',
-                        height: '613px',
-                        objectFit: 'cover',
-                    }}
-                />
+                <div style={{ width: '50%', height: '613px', position: 'relative' }}>
+                    <Image
+                        src="/images/giving.webp"
+                        alt="Community Giving Back Image"
+                        layout='fill'
+                        objectFit='cover'
+                    />
+                </div>
 
                 <section
                     style={{
@@ -67,10 +65,11 @@ const CommunityPage = () => {
                             margin: '24px 0',
                         }}
                     >
-                        Cottage Comfort Café pulses with community spirit. Join us monthly for 'Caring Cup Day'—our hosted day of charity, donations, or community service. Together, we make a difference—one cup, one cause, one community at a time.
+                        Cottage Comfort Café pulses with community spirit. Join us monthly for &apos;Caring Cup Day&apos;—our hosted day of charity, donations, or community service. Together, we make a difference—one cup, one cause, one community at a time.
                     </p>
                 </section>
             </div>
+
             {/* End of Family Section */}
 
             {/* "Events" Title */}
@@ -78,15 +77,15 @@ const CommunityPage = () => {
                 style={{
                     color: '#000',
                     fontFamily: 'Georgia',
-                    fontSize: '26px',
+                    fontSize: '42px',
                     fontStyle: 'normal',
-                    fontWeight: 400,
+                    fontWeight: 700,
                     lineHeight: '24px',
                     paddingLeft: '124px', 
                     paddingTop: '110px',
                     paddingBottom: '64px'
                 }}
-            >
+            > 
                 Events
             </h2>
 
@@ -109,19 +108,15 @@ const CommunityPage = () => {
                         alignItems: 'center',
                     }}
                 >
-                    {/* Image on the left side */}
-                    <img
-                        src="../images/fooddrive.png" 
-                        alt="Food Drive Image"
-                        style={{
-                            width: '50%', 
-                            height: '100%', 
-                            objectFit: 'cover',
-                            marginLeft: '24px', 
-                            margin: '0',
-                            borderRadius: '14px',
-                        }}
-                    />
+                   {/* Image on the left side */}
+                   <div style={{ width: '50%', height: '100%', position: 'relative' }}>
+                        <Image
+                            src="/images/fooddrive.webp"
+                            alt="Food Drive Image"
+                            layout='fill'
+                            objectFit='cover'
+                        />
+                    </div>
 
                     {/* Text on the right side */}
                     <div
@@ -156,7 +151,7 @@ const CommunityPage = () => {
                                 marginTop: '54px'
                             }}
                         >
-                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we'll sign you up as a volunteer, sending details about our next event to your inbox.
+                            We host food drives frequently for local shelters and families in need. To participate, email or call us, and we will sign you up as a volunteer, sending details about our next event to your inbox.
                         </p>
                         <p
                             style={{
@@ -198,18 +193,14 @@ const CommunityPage = () => {
                     }}
                 >
                     {/* Image on the left side */}
-                    <img
-                        src="../images/garden.png" 
-                        alt="Gardening Image"
-                        style={{
-                            width: '50%', 
-                            height: '100%', 
-                            objectFit: 'cover',
-                            marginLeft: '24px', 
-                            margin: '0',
-                            borderRadius: '14px',
-                        }}
-                    />
+                    <div style={{ width: '50%', height: '100%', position: 'relative' }}>
+                        <Image
+                            src="/images/garden.webp"
+                            alt="Gardening Image"
+                            layout='fill'
+                            objectFit='cover'
+                        />
+                    </div>
 
                     {/* Text on the right side */}
                     <div

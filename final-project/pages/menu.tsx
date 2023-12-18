@@ -1,49 +1,50 @@
 import Head from 'next/head';
 import React from 'react';
-import { Navbar } from '../components/navbar'; 
-import Footer from '../components/footer'; 
-import { Card, CardBody, CardFooter, Image } from "@nextui-org/react";
+import { Navbar } from '../components/navbar';
+import Footer from '../components/footer';
+import { Card, CardBody, CardFooter, Image as NextUIImage } from "@nextui-org/react";
+import Image from 'next/image'; // Importing the Image component from next/image
 
 const FullMenuPage = () => {
     const menuItems = [
         {
             title: "Nurture Nut Latte",
-            img: "../images/latte.png",
+            img: "../images/latte.webp",
             price: "$4.50",
         },
         {
             title: "Garden Hug Matcha",
-            img: "../images/matcha.png",
+            img: "../images/matcha.webp",
             price: "$6.50",
         },
         {
             title: "Compassion Cappuccino",
-            img: "../images/cappuccino.png",
+            img: "../images/cappuccino.webp",
             price: "$3.75",
         },
         {
             title: "Meadow Mint Mocha",
-            img: "../images/mocha.png",
+            img: "../images/mocha.webp",
             price: "$5.50",
         },
         {
             title: "Vanilla Velvet Latte",
-            img: "../images/vanilla.png",
+            img: "../images/vanilla.webp",
             price: "$4.50",
         },
         {
             title: "Tranquil Trail Macchiato",
-            img: "../images/macchiato.png",
+            img: "../images/macchiato.webp",
             price: "$6.50",
         },
         {
             title: "Cozy Cabin Chai Latte",
-            img: "../images/chai.png",
+            img: "../images/chai.webp",
             price: "$3.75",
         },
         {
             title: "Cloud Comfort White Mocha",
-            img: "../images/white.png",
+            img: "../images/white.webp",
             price: "$5.50",
         },
     ];
@@ -97,15 +98,15 @@ const FullMenuPage = () => {
                 }}
             >
                 {menuItems.map((item) => (
-                    <Card shadow="sm">
+                    <Card shadow="sm" key={item.title}>
                         <CardBody className="overflow-visible p-0">
-                            <Image
+                            <NextUIImage
                                 shadow="sm"
                                 radius="lg"
                                 width="100%"
                                 alt={item.title}
                                 className="w-full object-cover h-[140px]"
-                                src={item.img}
+                                src={item.img.startsWith('/') ? item.img : `/${item.img}`}
                             />
                         </CardBody>
                         <CardFooter className="text-small justify-between">

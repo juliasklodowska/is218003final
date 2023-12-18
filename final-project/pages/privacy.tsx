@@ -57,7 +57,7 @@ const PrivacyPolicyPage = () => {
                 <div style={sectionStyle}>
                     <p><strong>Introduction</strong></p>
                     <p>
-                        Cottage Comfort Café is committed to protecting the privacy of our customers. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our café or use our services, and it includes our use of Google Analytics and adherence to the General Data Protection Regulation (GDPR). We reserve the right to make changes to this policy at any time, and any such changes will be communicated through the "Last Updated" date of this Privacy Policy.
+                        Cottage Comfort Café is committed to protecting the privacy of our customers. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you visit our café or use our services, and it includes our use of Google Analytics and adherence to the General Data Protection Regulation (GDPR). We reserve the right to make changes to this policy at any time, and any such changes will be communicated through the &quot;Last Updated&quot; date of this Privacy Policy.
                     </p>
                 </div>
 

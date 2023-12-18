@@ -14,7 +14,6 @@ const MailchimpForm: React.FC = () => {
           target="_blank"
         >
           <div id="mc_embed_signup_scroll">
-            {/* Removed the <h2>Join Our Family</h2> */}
             <div className={styles['mc-field-group']} style={{ marginBottom: '10px' }}>
               <label htmlFor="mce-EMAIL">Email Address <span className={styles.asterisk}>*</span></label>
               <input 
