@@ -24,7 +24,7 @@ export type FooterLink = {
     },
     {
       text: "Join Our Family",
-      href: "/http://eepurl.com/iF-z02" 
+      href: "http://eepurl.com/iF-z02" 
     }
   ];
   
